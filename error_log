@@ -1,0 +1,20 @@
+[17-Jan-2021 00:28:50 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:28:50 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:28:50 UTC] PHP Fatal error:  require(): Failed opening required '' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:30:28 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:30:28 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:30:28 UTC] PHP Fatal error:  require(): Failed opening required '' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:30:29 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:30:29 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:30:29 UTC] PHP Fatal error:  require(): Failed opening required '' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:31:21 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:31:21 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:31:21 UTC] PHP Fatal error:  require(): Failed opening required '' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:31:22 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:31:22 UTC] PHP Warning:  require(): Filename cannot be empty in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[17-Jan-2021 00:31:22 UTC] PHP Fatal error:  require(): Failed opening required '' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/codekec2/kioshukum.codekece.id/index.php on line 32
+[28-Jan-2021 07:20:02 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/codekec2/kioshukum.codekece.id/_apps/app/Config/App.php on line 4
+[28-Jan-2021 07:20:08 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in /home/codekec2/kioshukum.codekece.id/_apps/app/Config/App.php on line 4
+[29-Jan-2021 13:56:55 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Models\HomeModel, because the name is already in use in /home/codekec2/kioshukum.codekece.id/_apps/app/Models/SettingModel.php on line 14
+[29-Jan-2021 13:57:00 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Models\HomeModel, because the name is already in use in /home/codekec2/kioshukum.codekece.id/_apps/app/Models/SettingModel.php on line 14
+[29-Jan-2021 13:57:08 Asia/Jakarta] PHP Fatal error:  Cannot declare class App\Models\HomeModel, because the name is already in use in /home/codekec2/kioshukum.codekece.id/_apps/app/Models/SettingModel.php on line 14

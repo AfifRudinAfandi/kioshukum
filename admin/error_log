@@ -1,0 +1,323 @@
+[19-Dec-2020 04:58:20 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 04:58:23 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 04:58:28 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/slide.php on line 22
+[19-Dec-2020 04:58:33 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/slide.php on line 22
+[19-Dec-2020 04:58:40 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 04:58:42 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 04:58:42 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 04:58:43 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 04:58:43 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 05:00:23 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 05:01:05 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 05:01:06 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 05:01:06 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[19-Dec-2020 05:01:06 UTC] PHP Parse error:  syntax error, unexpected 'new' (T_NEW), expecting identifier (T_STRING) in /home/codekec2/kioshukum.codekece.id/application/controllers/landing.php on line 21
+[21-Dec-2020 18:47:20 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:47:22 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:47:45 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:48:03 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:48:07 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:48:07 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:48:28 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:48:29 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:48:30 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:48:30 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:49:28 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:49:29 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:49:29 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:49:29 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:49:30 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:49:30 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 18:49:37 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting '(' in /home/codekec2/kioshukum.codekece.id/application/views/admin/partner/index.php on line 23
+[21-Dec-2020 19:50:34 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/codekec2/kioshukum.codekece.id/application/views/web/welcome.php on line 81
+[21-Dec-2020 19:50:35 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/codekec2/kioshukum.codekece.id/application/views/web/welcome.php on line 81
+[21-Dec-2020 19:50:36 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/codekec2/kioshukum.codekece.id/application/views/web/welcome.php on line 81
+[23-Jan-2021 23:45:34 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:46:18 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:46:30 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:46:51 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:46:52 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:46:53 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:47:27 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:47:27 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:47:37 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:48:04 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:48:05 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 32
+[23-Jan-2021 23:48:56 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:48:57 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:48:57 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:48:58 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:48:58 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:48:58 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:50:41 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:50:42 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:50:42 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:51:04 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:51:07 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:51:43 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:51:44 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:51:44 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:51:45 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:51:45 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:51:46 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:52:01 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:52:02 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 29
+[23-Jan-2021 23:52:02 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 29
+[23-Jan-2021 23:52:02 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 29
+[23-Jan-2021 23:52:02 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 29
+[23-Jan-2021 23:52:02 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 29
+[23-Jan-2021 23:52:22 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:52:25 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:52:57 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:52:58 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:53:10 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:53:11 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:53:11 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:53:42 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:24 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:42 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:43 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:44 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:44 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:44 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:45 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:45 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:46 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[23-Jan-2021 23:58:46 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 30
+[24-Jan-2021 06:59:54 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_faq::GetLawyerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php:129
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Frequently_ask_question->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 129
+[24-Jan-2021 07:00:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_faq::GetLawyerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php:129
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Frequently_ask_question->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/frequently_ask_question.php on line 129
+[05-Feb-2021 11:37:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function GetSlide() on null in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:17
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 17
+[05-Feb-2021 11:57:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServiceCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:146
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 146
+[05-Feb-2021 11:57:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServiceCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:146
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 146
+[05-Feb-2021 12:01:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetSlideCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:154
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->category_edit('1')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 154
+[05-Feb-2021 14:33:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetSlideCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:38
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->new()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 38
+[05-Feb-2021 14:50:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:50:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:50:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:50:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:50:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:50:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:50:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:51:04 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:51:58 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:51:59 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:52:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:52:00 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:52:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:52:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[05-Feb-2021 14:52:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:53
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 53
+[05-Feb-2021 14:52:50 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:53
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 53
+[05-Feb-2021 14:53:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:55
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 55
+[05-Feb-2021 14:53:47 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:63
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 63
+[05-Feb-2021 14:53:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:63
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 63
+[05-Feb-2021 14:54:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_service::GetServerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:64
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->edit('3')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 64
+[08-Feb-2021 18:24:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:02 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:03 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:26 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[08-Feb-2021 18:24:27 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method M_Partner::GetpartnerCategory() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php:128
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Partner->category()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/partner.php on line 128
+[09-Feb-2021 17:36:53 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to a member function DeleteData() on null in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/inquiry.php:25
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Inquiry->delete('7')
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/inquiry.php on line 25
+[10-Feb-2021 13:11:47 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/landing.php on line 115
+[10-Feb-2021 13:12:01 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/landing.php on line 115
+[10-Feb-2021 13:12:03 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/landing.php on line 115
+[10-Feb-2021 20:24:10 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php:215
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Service->category_save()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/service.php on line 215

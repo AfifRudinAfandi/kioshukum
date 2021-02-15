@@ -1,0 +1,973 @@
+@media (max-width: 575.98px) {
+    /* Navbar */
+    .main-nav .dropdown-multicol{
+        width: auto;
+        padding: 14px 0px;
+    }
+
+    /* Home-Page */
+    .navbar-light{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        border-bottom: none;
+    }
+    .navbar-light .navbar-nav .nav-item .nav-link {
+        padding: 18px 18px 18px 0px;
+    }
+    section.home.banner .overlay{
+        background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
+    }
+    section.home.banner .carousel-indicators{
+        margin-left: 4%;
+    }
+    section.home.banner .carousel-caption{
+        margin-right: 4%;
+        margin-left: 4%;
+    }
+    section.home.banner .carousel-caption .banner-title {
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 284px !important;
+    }
+    section.home.banner .carousel-caption .banner-description {
+        max-width: 274px !important;
+    }
+    section.home.banner .btn-banner {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 8px 18px;
+    }
+
+
+    section.home.service-menu ul{
+        justify-content: center;
+        margin-bottom: 68px;
+    }
+    section.home.service-menu ul .nav-link{
+        min-height: max-content;
+        padding: 28px;
+    }
+    section.home.service-menu ul .nav-item{
+        flex: 0 0 50%;
+    }
+    section.home.service-menu ul .nav-link img{
+        margin-bottom: 0;
+        width: 34px;
+    }
+
+    section.about-company.home {
+        padding-top: 68px;
+        padding-bottom: 84px;
+    }
+    section.about-company.home .wrapper-about {
+        padding-left: 18px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    section.reason-belive.home .container{
+        padding: 0;
+    }
+    section.reason-belive.home .wrapper-reason{
+        border-radius: 0;
+        padding: 48px 28px;
+    }
+    section.reason-belive.home .reason-item{
+        margin-bottom: 24px;
+    }
+    section.reason-belive.home .reason-title{   
+        font-size: 28px;
+    }
+    section.partnership .wrapper-partnership {
+        padding: 0;
+    }
+    section.partnership .partnership-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .partnership.contact-us .wrapper-partnership {
+        padding: 0;
+    }
+    .partnership.contact-us .partnership-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    section.testimonial .vm-lg{
+        display: none;
+    }
+    section.testimonial .vm-sm{
+        display: block;
+    }
+    section.testimonial .col-img{
+        flex: 0 0 auto;
+        width: 32% !important;
+        margin-bottom: 24px;
+    }
+    section.testimonial {
+        padding-top: 64px;
+        padding-bottom: 84px;
+    }
+    .thumbnail-slider .controls ul{
+        text-align: center;
+    }
+    .banner-ads{
+        background: linear-gradient(267.54deg, rgba(67, 141, 152, 0.01) -22%, #331B4D 80%), url("../images/banner-ads.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .ads-title {
+        max-width: 88%;
+    }
+    .ads-description{
+        max-width: 80%;
+    }
+    .banner-ads .right{
+        margin-top: 28px;
+        width: 100%;
+        text-align: center;
+    }
+    footer .col-md-5{
+        margin-bottom: 28px;
+    }
+    footer .col:nth-last-child(1){
+        margin-top: 28px;
+        flex: 1 0 100%;
+    }
+
+    /* Services */
+
+    section.banner-lawyers, section.banner-service {
+        padding-bottom: 164px;
+    }
+    section.banner-lawyers .banner-title ,section.banner-service .banner-title {
+        max-width: 327px;
+    }
+    section.lawyers.about-services .wrapper-services, section.about-services .wrapper-services {
+        padding: 34px 34px 54px 34px;
+    }
+    section.lawyers.about-services .services-description, section.about-services .services-description {
+        padding-left: 24px;
+    }
+    section.pricing .wrapper-pricing-filter .item-pricing {
+        margin-right: 0px;
+        margin-bottom: 14px;
+        flex: 100%;
+    }
+    section.pricing .table-description{
+        margin-bottom: 24px;
+    }
+    section.pricing .table-responsive{
+        display: none;
+    }
+    section.how-it-works .wrapper-step {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    section.how-it-works .wrapper-icon {
+        width: 128px;
+        height: 128px;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+    section.how-it-works .icon-step {
+        width: 78px;
+    }
+    section.how-it-works .wrapper-step-description{
+        flex:100%;
+        text-align: center;
+    }
+    section.how-it-works .wrapper-step:nth-child(odd) .step-row .wrapper-step-description{
+        padding-left: 0px;
+    }
+    section.how-it-works .wrapper-step:nth-child(even) .step-row .wrapper-step-description {
+        padding-right: 0px;
+    }
+    section.how-it-works .feature-description {
+        margin-bottom: 38px;
+    }
+    section.pricing .row-pricing-filter .button-pricing{
+        width: 100%;
+        display: block;
+    }
+
+    /* Lawyers-Section */
+    section.banner-lawyers-detail .wrapper-banner-description {
+        margin-left: 0px;
+        width: 100%;
+    }
+    section.banner-lawyers-detail .banner-profile{
+        margin-bottom: 20px;
+        width: 108px;
+        height: 108px;
+    }
+    section.banner-lawyers-detail .banner-title{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    section.banner-lawyers-detail .banner-description{
+        width: 100%;
+    }
+    section.banner-lawyers-detail .wrapper-experiance span{
+        display: none;
+    }
+    section.profile-services {
+        margin-top: -89px;
+    }
+    section.banner-lawyers-detail {
+        padding-top: 98px;
+        padding-bottom: 124px;
+    }
+    section.profile-services .wrapper-services{
+        padding: 24px;
+    }
+
+    section.profile-services .profile-identity .head-profile-identity{
+        margin-bottom: 20px;
+    }
+    section.profile-services .profile-identity .head-profile-identity::after{
+        bottom: -6px;
+    }
+    section.our-lawyers , section.other-lawyers{
+        padding-top: 38px;
+    }
+    section.our-lawyers .lawyers-seperator, section.other-lawyers .lawyers-seperator{
+        margin-bottom: 58px;
+    }
+
+    /* Contact */
+    section.banner-contact {
+        padding-bottom: 146px;
+    }
+    section.banner-contact .banner-title {
+        font-size: 32px;
+        max-width: 270px;
+    }
+    section.customer-assistance {
+        margin-top: -118px;
+        padding-top: 24px;
+    }
+    section.customer-assistance .item-customer-assistance, section.customer-assistance .item-faq {
+        padding: 34px 24px;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+    section.customer-assistance .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 18px;
+    }
+    section.customer-assistance .item-customer-assistance .wrapper-content , .item-faq .wrapper-content{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    section.customer-assistance .item-customer-assistance .item-description, .item-faq .item-description{
+        text-align: center;
+    }
+    section.customer-assistance .item-customer-assistance .item-faq .item-title, .item-faq .item-title{
+        text-align: center;
+    }
+    section.contact {
+        padding-top: 28px;
+        padding-bottom: 34px;
+    }
+    section.contact .col-md-6:nth-child(1){
+        order: 2;
+    }
+    section.contact .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    section.contact .left{
+        border-radius: 0;
+        padding: 32px 24px;
+    }
+    section.contact .left .col:nth-child(2) {
+        padding-right: 10px;
+        margin-bottom: 28px;
+    }.contact .left .col:nth-last-child(1) {
+        padding-left: 10px;
+        margin-bottom: 28px;
+    }
+    section.contact .left .direction-detail {
+        max-width: max-content;
+    }
+    section.contact .right {
+        padding: 46px 12px 46px 12px;
+    }
+    section.contact .right .form-control {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    section.contact .right .form-control::placeholder {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    section.contact .right .form-label{
+        font-size: 13px;
+    }
+    section.contact .right .wrapper-form-control {
+        margin-bottom: 0;
+    }
+    section.contact .right .wrapper-form-control .col{
+        flex: 1 0 100%;
+        margin-bottom: 32px;
+    }
+    section.contact .right .wrapper-form-control .form-check-inline{
+        width: 100%;
+    }
+    section.contact .right form .wrapper-form-control:nth-child(3),     section.contact .right form .wrapper-form-control:nth-child(4){
+        margin-bottom: 32px;
+    }
+
+    /* FAQ */
+    section.header-faq .banner-title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    section.faq-body .nav-pills{
+        justify-content: center;
+        margin-bottom: 68px;
+    }
+    section.faq-body .nav-pills .nav-link{
+        min-height: max-content;
+    }
+    section.faq-body .nav-pills .nav-link span{
+        display: none;
+    }
+    section.faq-body .nav-pills .nav-item{
+        flex: 0 0 33.3%;
+        margin-bottom: 14px;
+    }
+    section.faq-body .nav-pills .nav-link img{
+        margin-bottom: 0;
+    }
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills .nav-link img{
+        margin-bottom: 0;
+    }
+
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills{
+        justify-content: center;
+        margin-bottom: 68px;
+        box-shadow:none;
+        width: calc(100% + 24px);
+        margin: 0px -12px;
+    }
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills .nav-link{
+        min-height: max-content;
+    }
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills .nav-link span{
+        display: none;
+    }
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills .nav-item{
+        flex: 0 0 33.3%;
+        margin-bottom: 14px;
+    }
+
+    /* Register */
+    section.register-form{
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+    section.register-form .right .title{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    section.register-form .left{
+        display: none;
+    }
+    section.register-form .right {
+        padding: 0;
+    }
+    section.register-form .right .wrapper-form-control{
+        margin-bottom: 0;
+    }
+    section.register-form .right .wrapper-form-control .col{
+        flex: 1 0 100%;
+        margin-bottom: 32px;
+    }
+
+    /* Dashboard */
+    .dashboard-sub-nav .tab-content .home .wrapper-left .absolute-image{
+        display: none;
+    }
+    .main-dashboard-nav form{
+        display: none;
+    }
+    .main-dashboard-nav .dashboard-nav-right{
+        padding: 0;
+    }
+    .main-dashboard-nav .wrapper-profile .ic-profile {
+        width: 42px;
+        height: 42px;
+    }
+    .main-dashboard-nav .wrapper-profile .profile-name{
+        display: none;
+    }
+    .main-dashboard-nav .dropdown-toggle::after{
+        display: none;
+    }
+    .dashboard-nav-right .dropdown-menu{
+        left: auto;
+        right: 0;
+    }
+    .dashboard-sub-nav .nav-fixed{
+        top: auto;
+        bottom: 10px;
+    }
+    .dashboard-sub-nav .nav-pills{
+        padding: 0;
+        border-radius: 24px;
+        width: 96%;
+        margin: auto;
+        justify-content: space-evenly;
+        box-shadow: 0px 4px 32px rgba(19, 34, 55, 0.15);
+    }
+    .dashboard-sub-nav .nav-pills .nav-item{
+        margin: 0;
+    }
+    .dashboard-sub-nav .nav-pills .nav-item .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 12px 14px 12px;
+    }
+    .dashboard-sub-nav .nav-pills .nav-link.active{
+        background: none;
+    }
+    .dashboard-sub-nav .nav-pills .nav-item .nav-link .ic-nav-dashboard{
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    .dashboard-sub-nav .tab-content{
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .dashboard-sub-nav .tab-content .history .row, .dashboard-sub-nav .tab-content .payment .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-image, .dashboard-sub-nav .tab-content .payment .wrapper-right .right-image{
+        display: none;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right, .dashboard-sub-nav .tab-content .payment .wrapper-right {
+        text-align: left;
+        padding: 28px 18px;
+        margin-bottom: 26px;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-content, .dashboard-sub-nav .tab-content .payment .wrapper-right .right-content{
+        margin-bottom: 22px;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-button, .dashboard-sub-nav .tab-content .payment .wrapper-right .right-button{
+        width: max-content;
+        padding: 10px 26px;
+        font-size: 12px;
+    }
+    
+    .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Home-Page */
+    .navbar-light{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        border-bottom: none;
+    }
+    section.home.banner .overlay{
+        background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
+    }
+    section.home.banner .carousel-indicators{
+        margin-left: 8%;
+    }
+    section.home.banner .carousel-caption{
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    section.home.banner .banner-title {
+        font-size: 28px;
+        line-height: 36px;
+        max-width: 384px !important;
+    }
+    section.home.banner .banner-description {
+        max-width: 274px !important;
+    }
+    section.home.banner .btn-banner {
+        font-size: 12px;
+        line-height: 17px;
+        padding: 8px 18px;
+    }
+    section.about-company.home .about-company {
+        padding-top: 68px;
+        padding-bottom: 84px;
+    }
+    section.about-company.home .wrapper-about {
+        padding-left: 28px;
+        margin-right: 0;
+        margin-left: 0;
+        padding-top: 12px;
+        padding-bottom: 14px;
+    }
+    section.reason-belive.home .wrapper-reason{
+        padding: 48px 28px;
+    }
+    section.reason-belive.home .reason-item{
+        margin-bottom: 24px;
+    }
+    section.reason-belive.home .reason-title{   
+        font-size: 28px;
+    }
+    section.partnership .partnership-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    section.partnership .wrapper-partnership {
+        padding: 0px 0px;
+    }
+    .partnership.contact-us .partnership-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .partnership.contact-us .wrapper-partnership {
+        padding: 0px 0px;
+    }
+    section.testimonial .vm-lg{
+        display: none;
+    }
+    section.testimonial .vm-sm{
+        display: block;
+    }
+    section.testimonial {
+        padding-top: 64px;
+        padding-bottom: 84px;
+    }
+    .thumbnail-slider .controls ul{
+        text-align: center;
+    }
+    .banner-ads{
+        background: linear-gradient(267.54deg, rgba(67, 141, 152, 0.01) -22%, #331B4D 80%), url("../images/banner-ads.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .ads-title {
+        font-size: 28px;
+        max-width: 80%;
+    }
+    .ads-description{
+        max-width: 60%;
+    }
+    .banner-ads .right{
+        margin-top: 28px;
+        width: 100%;
+    }
+    footer .col-md-5{
+        width: 100%;
+        margin-bottom: 28px;
+    }
+
+    /* Services */
+
+    section.lawyers.about-services .wrapper-services, section.about-services .wrapper-services {
+        padding: 42px 34px 54px 34px;
+    }
+    section.pricing .table-responsive{
+        display: none;
+    }
+    section.how-it-works .wrapper-icon {
+        width: 158px;
+        height: 158px;
+    }
+    section.how-it-works .icon-step {
+        width: 98px;
+    }
+    section.how-it-works .step-row{
+        align-items: flex-start;
+    }
+
+    /* Lawyers-Section */
+
+    section.our-lawyers .col-md-3{
+        flex: 0 0 50%;
+    }
+    section.other-lawyers .col-md-3{
+        flex: 0 0 50%;
+    }
+    section.banner-lawyers-detail .wrapper-banner-description {
+        margin-left: 0px;
+        width: 100%;
+    }
+    section.banner-lawyers-detail .banner-profile{
+        margin-bottom: 20px;
+        width: 108px;
+        height: 108px;
+    }
+    section.profile-services {
+        margin-top: -89px;
+    }
+    section.banner-lawyers-detail {
+        padding-top: 98px;
+        padding-bottom: 124px;
+    }
+
+    /* Contact */
+    section.banner-contact {
+        padding-bottom: 146px;
+    }
+    section.banner-contact .banner-title {
+        font-size: 32px;
+        max-width: 270px;
+    }
+    section.customer-assistance {
+        margin-top: -118px;
+    }
+    section.customer-assistance .item-customer-assistance, section.customer-assistance .item-faq {
+        padding: 34px 24px;
+        justify-content: center;
+        margin-bottom: 14px;
+    }
+    section.customer-assistance .item-customer-assistance .wrapper-icon, section.customer-assistance .item-faq .wrapper-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 18px;
+    }
+    section.customer-assistance .item-customer-assistance .wrapper-content , section.customer-assistance .item-faq .wrapper-content{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    section.customer-assistance .item-customer-assistance .item-description, section.customer-assistance .item-faq .item-description{
+        text-align: center;
+    }
+    section.contact {
+        padding-top: 28px;
+        padding-bottom: 34px;
+    }
+    section.contact .left .col:nth-child(2) {
+        padding-right: 0;
+        margin-bottom: 28px;
+    }
+    section.contact .left .col:nth-last-child(1) {
+        padding-left: 0;
+        margin-bottom: 28px;
+    }
+    section.contact .left .direction-detail {
+        max-width: max-content;
+    }
+    section.contact .right {
+        padding: 46px 12px 46px 12px;
+    }
+
+    /* FAQ */
+    section.faq-body .nav-pills .nav-item {
+        flex: 0 0 50%;
+        margin-bottom: 16px;
+    }
+    section.faq-body .nav-pills {
+        margin-bottom: 84px;
+        justify-content: center;
+    }
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills{
+        box-shadow: none;
+        width: 100%;
+    }
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills .nav-item {
+        flex: 0 0 50%;
+        margin-bottom: 16px;
+    }
+
+
+    /* Register */
+    section.register-form{
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+    section.register-form .right .title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    section.register-form .left{
+        display: none;
+    }
+    section.register-form .right {
+        padding: 0;
+    }
+
+    /* Dashboard */
+    .dashboard-sub-nav .tab-content .home .wrapper-left .absolute-image{
+        display: none;
+    }
+    .main-dashboard-nav form{
+        display: none;
+    }
+    .main-dashboard-nav .dashboard-nav-right{
+        padding: 0;
+    }
+    .main-dashboard-nav .wrapper-profile .ic-profile {
+        width: 42px;
+        height: 42px;
+    }
+    .main-dashboard-nav .wrapper-profile .profile-name{
+        display: none;
+    }
+    .main-dashboard-nav .dropdown-toggle::after{
+        display: none;
+    }
+    .dashboard-nav-right .dropdown-menu{
+        left: auto;
+        right: 0;
+    }
+    .dashboard-sub-nav .nav-fixed{
+        top: auto;
+        bottom: 10px;
+    }
+    .dashboard-sub-nav .nav-pills{
+        padding: 0;
+        border-radius: 24px;
+        width: 87%;
+        margin: auto;
+        justify-content: space-evenly;
+        box-shadow: 0px 4px 32px rgba(19, 34, 55, 0.15);
+    }
+    .dashboard-sub-nav .nav-pills .nav-item{
+        margin: 0;
+    }
+    .dashboard-sub-nav .nav-pills .nav-item .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 12px 12px 14px 12px;
+    }
+    .dashboard-sub-nav .nav-pills .nav-link.active{
+        background: none;
+    }
+    .dashboard-sub-nav .nav-pills .nav-item .nav-link .ic-nav-dashboard{
+        margin-right: 0;
+        margin-bottom: 6px;
+    }
+    .dashboard-sub-nav .tab-content{
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .dashboard-sub-nav .tab-content .history .row, .dashboard-sub-nav .tab-content .payment .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-image, .dashboard-sub-nav .tab-content .payment .wrapper-right .right-image{
+        display: none;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right, .dashboard-sub-nav .tab-content .payment .wrapper-right .right-content {
+        text-align: left;
+        padding: 28px 18px;
+        margin-bottom: 26px;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-content, .dashboard-sub-nav .tab-content .payment .wrapper-right .right-content{
+        margin-bottom: 22px;
+    }
+    .dashboard-sub-nav .tab-content .history .wrapper-right .right-button, .dashboard-sub-nav .tab-content .payment .wrapper-right .right-button{
+        width: max-content;
+        padding: 10px 26px;
+        font-size: 12px;
+    }
+    
+    .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Home-Page */
+    .navbar-light{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+        border-bottom: none;
+    }
+    section.home.banner .overlay{
+        background: linear-gradient(94.33deg, #331b4d 22%, rgba(19, 34, 55, 0) 140%);
+    }
+    section.about-company.home .wrapper-about {
+        margin-right: 44px;
+        margin-left: 44px;
+        padding-top: 12px;
+    }
+    .banner-ads .right{
+        margin-top: 28px;
+        width: 100%;
+    }
+    footer .col-md-5{
+        width: 100%;
+    }
+    .footer-description{
+        max-width: 90%;
+    }
+
+    /* Services */
+
+    section.pricing .table-responsive{
+        display: none;
+    }
+
+    /* Lawyers-Section */
+
+    section.our-lawyers .col-md-3{
+        flex: 0 0 33.3%;
+    }
+    section.other-lawyers .col-md-3{
+        flex: 0 0 33.3%;
+    }
+
+    /* Contact */
+    section.customer-assistance .item-customer-assistance, section.customer-assistance .item-faq {
+        padding: 34px 24px;    
+        min-height: 373px;
+    }
+    section.customer-assistance .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 18px;
+    }
+    section.customer-assistance .item-customer-assistance .wrapper-content , section.customer-assistance .item-faq .wrapper-content{
+        margin-left: 0;
+        width: 100%;
+    }
+    section.customer-assistance .item-customer-assistance .button-cs, section.customer-assistance .item-customer-assistance .button-cs:hover , section.customer-assistance .item-faq .button-cs, section.customer-assistance .item-faq .button-cs:hover{
+        padding: 16px 18px;
+        width: 100%;
+    }
+    section.contact .container .row .col-md-6:nth-child(1){
+        width: 40%;
+    }
+    section.contact .container .row .col-md-6:nth-child(2){
+        width: 60%;
+    }
+    section.contact .left{
+        padding: 46px 24px;
+    }
+    section.contact .left .col:nth-child(2) {
+        padding-right: 0;
+        margin-bottom: 28px;
+    }
+    section.contact .left .col:nth-last-child(1) {
+        padding-left: 0;
+        margin-bottom: 28px;
+    }
+    section.contact .left .direction-detail {
+        max-width: max-content;
+    }
+    /* FAQ */
+    section.faq-body .nav-pills .nav-item {
+        flex: 0 0 33.3%;
+        margin-bottom: 16px;
+    }
+    section.faq-body .nav-pills {
+        margin-bottom: 84px;
+        justify-content: center;
+    }
+
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills .nav-item {
+        flex: 0 0 33.3%;
+        margin-bottom: 16px;
+    }
+    .dashboard-sub-nav .tab-content .faq section.faq-body .nav-pills {
+        margin-bottom: 84px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    /* Register */
+    section.register-form{
+        padding-top: 32px;
+        padding-bottom: 64px;
+    }
+    section.register-form .right .title{
+        font-size: 28px;
+        line-height: 34px;
+    }
+    section.register-form .right {
+        padding: 0;
+    }
+    section.register-form .right .wrapper-form-control{
+        margin-bottom: 0;
+    }
+    section.register-form .right .wrapper-form-control .col{
+        flex: 1 0 100%;
+        margin-bottom: 32px;
+    }
+    section.register-form .left .quotes{
+        font-size: 12px;
+    }
+    section.register-form .left {
+        padding: 46px 28px 68px 28px;
+    }
+    
+    .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Services */
+    
+    section.pricing .accordion-pricing{
+        display: none;
+    }
+
+    /* Contact */
+    section.customer-assistance .item-customer-assistance, section.customer-assistance .item-faq {
+        padding: 34px 24px;    
+        min-height: 373px;
+    }
+    section.customer-assistance .item-customer-assistance .wrapper-icon, section.customer-assistance .item-faq .wrapper-icon{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 18px;
+    }
+    section.customer-assistance .item-customer-assistance .wrapper-content , section.customer-assistance .item-faq .wrapper-content{
+        margin-left: 0;
+        width: 100%;
+    }
+    section.customer-assistance .item-customer-assistance .button-cs, section.customer-assistance .item-customer-assistance .button-cs:hover , section.customer-assistance .item-faq .button-cs, section.customer-assistance .item-faq .button-cs:hover{
+        padding: 16px 18px;
+        width: 100%;
+    }
+    section.contact .left .col:nth-child(2) {
+        padding-right: 10px;
+        margin-bottom: 28px;
+    }
+    section.contact .left .col:nth-last-child(1) {
+        padding-left: 10px;
+        margin-bottom: 28px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ctf{
+        max-width: 1200px !important;
+    }
+
+    /* Services */
+    
+    section.pricing .accordion-pricing{
+        display: none;
+    }
+}
+@media (min-width: 1400px) {
+    .ctf{
+        max-width: 1500px !important;
+    }
+}

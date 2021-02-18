@@ -168,7 +168,7 @@
   <script type="text/javascript">
       (function () {
           var options = {
-              whatsapp: "+62 812-3272-4927", // WhatsApp number
+              whatsapp: "+62 819-2793-9290", // WhatsApp number
               call_to_action: "Message us", // Call to action
               position: "right", // Position may be 'right' or 'left'
           };

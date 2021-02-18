@@ -21,7 +21,8 @@
                         </thead>
                         <tbody>
                             <?php
-                            $url = 'http://kioshukum.codekece.id/';
+                            //$url = 'http://kioshukum.codekece.id/';
+			    $url = $this->config->item('base_url_sort'); 
                             foreach ($data_landing as $row) { ?>
                                 <tr>
                                     <td><?= $row['landing_name'] ?></td>

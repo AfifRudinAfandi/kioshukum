@@ -75,5 +75,15 @@ class HomeModel extends Model
     {
         return $this->db->query("SELECT * FROM tbl_service $condition");
     }
+	
+	function getMember($id)
+    {
+        return $this->db->table('tbl_member')->where('member_id', $id)->get()->getRow();
+    }
+	
+	function insertBooking($data)
+	{
+		return $this->db->table('tbl_booking')->insert($data);
+	}
 
 }

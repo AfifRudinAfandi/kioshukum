@@ -31,7 +31,8 @@
     max-width: 138px;
 }
 .navbar-brand .logo-brand{
-    width: 100%;
+    width: auto;
+    height: 68px;
 }
 .main-nav .navbar-nav .nav-item .nav-link{
     font-weight: normal;
@@ -472,7 +473,7 @@ section.home.service-menu ul .nav-link{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 18px;
+    padding: 40px 26px;
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
@@ -1256,7 +1257,7 @@ section.customer-assistance .item-customer-assistance, section.customer-assistan
     box-shadow: 0px 4px 32px rgba(45, 18, 78, 0.2);
     border-radius: 12px;
     padding: 52px 30px;
-    min-height: 269px;
+    min-height: 291px;
 }
 section.customer-assistance .item-customer-assistance .wrapper-icon, .item-faq .wrapper-icon{
     width: 82px;
@@ -1273,6 +1274,9 @@ section.customer-assistance .item-customer-assistance .wrapper-icon .icon-cs{
 }
 section.customer-assistance .item-customer-assistance .wrapper-content{
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 section.customer-assistance .item-customer-assistance .item-title{
     font-style: normal;
@@ -1292,7 +1296,7 @@ section.customer-assistance .item-customer-assistance .item-description{
     text-transform: capitalize;
     color: #767676;
     max-width: 260px;
-    margin-bottom: 46px;
+    margin-bottom: 0;
 }
 section.customer-assistance .item-customer-assistance .button-cs, section.customer-assistance .item-customer-assistance .button-cs:hover{
     font-style: normal;
@@ -1304,6 +1308,7 @@ section.customer-assistance .item-customer-assistance .button-cs, section.custom
     background-color: #FF7C5E;
     padding: 16px 32px;
     border-radius: 4px;
+    width: max-content;
 }
 section.customer-assistance .item-faq .wrapper-icon .icon-cs{
     width: 60%;
@@ -2539,6 +2544,9 @@ section.register-form .forgot, .forgot:hover{
 
 
 /* DASHBOARD PAGE */
+.dashboard-sub-nav {
+    margin-top: 145px;
+}
 .dashboard-sub-nav .nav-fixed{
     position: fixed;
     top: 0;
@@ -2552,7 +2560,7 @@ section.register-form .forgot, .forgot:hover{
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
-    margin-top: 60px;
+    margin-top: 77px;
     padding: 10px 0px 14px 0px;
 }
 .dashboard-sub-nav .nav-pills .nav-item:nth-child(1){

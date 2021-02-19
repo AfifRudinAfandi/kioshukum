@@ -39,3 +39,6 @@
 [10-Feb-2021 15:25:20 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/codekec2/kioshukum.codekece.id/admin/com/panel/js/media/core/autoload.php on line 48
 [10-Feb-2021 15:28:01 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/codekec2/kioshukum.codekece.id/admin/com/panel/js/media/core/autoload.php on line 48
 [12-Feb-2021 15:15:00 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/codekec2/kioshukum.codekece.id/admin/com/panel/js/media/core/autoload.php on line 48
+[15-Feb-2021 15:07:03 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/codekec2/kioshukum.codekece.id/admin/com/panel/js/media/core/autoload.php on line 48
+[15-Feb-2021 15:09:14 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/codekec2/kioshukum.codekece.id/admin/com/panel/js/media/core/autoload.php on line 48
+[15-Feb-2021 15:09:32 UTC] PHP Deprecated:  The each() function is deprecated. This message will be suppressed on further calls in /home/codekec2/kioshukum.codekece.id/admin/com/panel/js/media/lib/class_gd.php on line 55

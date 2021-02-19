@@ -34,9 +34,9 @@ class Account extends BaseController
 	{
 		
         $render = [
-        	'setting'						=> $this->setting->getRow(),
-            'blog_title'		=> 'Kios Hukum',
-            '_js' => "
+        	'setting'	 => $this->setting->getRow(),
+            'blog_title' => 'Kios Hukum',
+            '_js'  		 => "
                 <script>
 				  const togglePassword = document.querySelector('#togglePassword');
 				  const password = document.querySelector('#password');

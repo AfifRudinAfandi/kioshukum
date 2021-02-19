@@ -222,6 +222,24 @@ Wherever you are</h1>
 </div>
 </div>
 </div>
+<script>
+      const togglePassword = document.querySelector('#togglePassword');
+      const password = document.querySelector('#password');
+
+      const togglePasswordConfirm = document.querySelector('#togglePasswordConfirm');
+      const passwordConfirm = document.querySelector('#confirm_password');
+
+      togglePassword.addEventListener('click', function (e) {
+        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+        password.setAttribute('type', type);
+        this.classList.toggle('fa-eye-slash');
+      });
+      togglePasswordConfirm.addEventListener('click', function (e) {
+        const type = passwordConfirm.getAttribute('type') === 'password' ? 'text' : 'password';
+        passwordConfirm.setAttribute('type', type);
+        this.classList.toggle('fa-eye-slash');
+      });
+    </script>
 <?php } ?>
 
 <!-- // HOW IT WORK SECTION -->

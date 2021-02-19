@@ -112,7 +112,7 @@ class Account extends BaseController
       const password = document.querySelector('#password');
 
       const togglePasswordConfirm = document.querySelector('#togglePasswordConfirm');
-      const passwordConfirm = document.querySelector('#passwordConfirm');
+      const passwordConfirm = document.querySelector('#confirm_password');
 
       togglePassword.addEventListener('click', function (e) {
         const type = password.getAttribute('type') === 'password' ? 'text' : 'password';

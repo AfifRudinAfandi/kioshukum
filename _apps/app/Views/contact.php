@@ -17,8 +17,10 @@
                         <img class="icon-cs" src="<?= base_url() ?>/assets/static/images/customer-service.svg" />
                     </div>
                     <div class="wrapper-content">
-                        <h5 class="item-title">Talk to Customer Care</h5>
-                        <p class="item-description">free consutation with our friendly customer care.</p>
+                        <div class="wp-text-content">
+                            <h5 class="item-title">Talk to Customer Care</h5>
+                            <p class="item-description">free consutation with our friendly customer care.</p>
+                        </div>
                         <button class="btn button-cs">Contact Customer Care</button>
                     </div>
                 </div>
@@ -29,8 +31,11 @@
                         <img class="icon-cs" src="<?= base_url() ?>/assets/static/images/question.svg" />
                     </div>
                     <div class="wrapper-content">
-                        <h5 class="item-title">FAQ (frequently Ask Question)</h5>
-                        <p class="item-description">information to know about our service and pricing.</p>
+                        <div class="wp-text-content">
+                            <h5 class="item-title">FAQ (frequently Ask Question)</h5>
+                            <p class="item-description">information to know about our service and pricing.</p>
+                        </div>
+                        
                         <a href="<?= base_url('frequently_ask_question') ?>" class="btn button-cs">go to FAQ Pages</a>
                     </div>
                 </div>

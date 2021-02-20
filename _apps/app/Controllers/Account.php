@@ -34,9 +34,9 @@ class Account extends BaseController
 	{
 		
         $render = [
-        	'setting'						=> $this->setting->getRow(),
-            'blog_title'		=> 'Kios Hukum',
-            '_js' => "
+        	'setting'	 => $this->setting->getRow(),
+            'blog_title' => 'Kios Hukum',
+            '_js'  		 => "
                 <script>
 				  const togglePassword = document.querySelector('#togglePassword');
 				  const password = document.querySelector('#password');
@@ -112,7 +112,7 @@ class Account extends BaseController
       const password = document.querySelector('#password');
 
       const togglePasswordConfirm = document.querySelector('#togglePasswordConfirm');
-      const passwordConfirm = document.querySelector('#passwordConfirm');
+      const passwordConfirm = document.querySelector('#confirm_password');
 
       togglePassword.addEventListener('click', function (e) {
         const type = password.getAttribute('type') === 'password' ? 'text' : 'password';

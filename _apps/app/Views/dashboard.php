@@ -1,10 +1,10 @@
 <?= $this->extend('layout/_template') ?>
 
 <?= $this->section('content') ?>
-<div class="dashboard-sub-nav mt-5 pt-5">
+      <div class="dashboard-sub-nav">
         <ul class="nav nav-pills nav-fixed" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><img class="ic-nav-dashboard" src="../assets/static/images/dashboard.svg"><span>Home</span></a>
+            <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><img class="ic-nav-dashboard" src="../assets/static/images/dashboard.svg"><span>Home</span></a>
           </li>
           <li class="nav-item" role="presentation">
             <a class="nav-link" id="pills-history-tab" data-bs-toggle="pill" href="#pills-history" role="tab" aria-controls="pills-history" aria-selected="false"><img class="ic-nav-dashboard" src="../assets/static/images/doughnut_chart.svg"><span>History</span></a>
@@ -13,7 +13,7 @@
             <a class="nav-link" id="pills-payment-tab" data-bs-toggle="pill" href="#pills-payment" role="tab" aria-controls="pills-payment" aria-selected="false"><img class="ic-nav-dashboard" src="../assets/static/images/credit_card.svg"><span>Payment</span></a>
           </li>
           <li class="nav-item" role="presentation">
-            <a class="nav-link active" id="pills-faq-tab" data-bs-toggle="pill" href="#pills-faq" role="tab" aria-controls="pills-faq" aria-selected="false"><img class="ic-nav-dashboard" src="../assets/static/images/ic-info.svg"><span>FAQ</span></a>
+            <a class="nav-link" id="pills-faq-tab" data-bs-toggle="pill" href="#pills-faq" role="tab" aria-controls="pills-faq" aria-selected="false"><img class="ic-nav-dashboard" src="../assets/static/images/ic-info.svg"><span>FAQ</span></a>
           </li>
         </ul>
 
@@ -38,7 +38,7 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane history fade" id="pills-history" role="tabpanel" aria-labelledby="pills-history-tab">
+          <div class="tab-pane history fade show active" id="pills-history" role="tabpanel" aria-labelledby="pills-history-tab">
             <div class="container">
               <div class="row">
                 <div class="col-md-8">
@@ -164,7 +164,7 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane faq fade show active" id="pills-faq" role="tabpanel" aria-labelledby="pills-faq-tab">
+          <div class="tab-pane faq fade" id="pills-faq" role="tabpanel" aria-labelledby="pills-faq-tab">
             
             <section class="header-faq">
               <p class="banner-lable">Kios Hukum.id</p>

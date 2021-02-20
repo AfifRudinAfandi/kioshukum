@@ -59,7 +59,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    
                     <?php
                     $db  = \Config\Database::connect();
                     $builder_tbl_menu = $db->table('tbl_menu');
@@ -158,7 +157,7 @@
     </footer>
   </main>
   
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="<?= base_url() ?>/assets/static/js/jquery-3.2.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <?php if(!empty(@$landing_slide)){ ?>
   <script src="<?= base_url() ?>/assets/static/js/slider.js"></script>
@@ -168,7 +167,7 @@
   <script type="text/javascript">
       (function () {
           var options = {
-              whatsapp: "+62 812-3272-4927", // WhatsApp number
+              whatsapp: "+62 819-2793-9290", // WhatsApp number
               call_to_action: "Message us", // Call to action
               position: "right", // Position may be 'right' or 'left'
           };

@@ -5,11 +5,13 @@ use App\Models\HomeModel;
 
 class Home extends BaseController
 {
-
+	protected $session;
+	
 	public function __construct()
     {
 		$settingModel = new SettingModel();
 		$this->setting      = $settingModel->getSetting();
+		$this->session = \Config\Services::session();
 	}
 
 	public function index()
@@ -53,10 +55,42 @@ class Home extends BaseController
 
 	}
     
+	public function booking()
+	{
+		$homeModel = new HomeModel();
+		
+		$data = [
+			'booking_date'          => date("Y-m-d H:i:s"),
+			'booking_member_id'     => $this->request->getVar('member_id'),
+			'booking_service_id'    => $this->request->getVar('service_id'),
+			'booking_city'  => $this->request->getVar('service_city'),
+			'booking_price' => $this->request->getVar('service_price'),
+			'booking_status'        => 0,
+		];
+		
+		$member = $homeModel->getMember($this->request->getVar('member_id'));
+		$service = $homeModel->getService("WHERE service_id=".$this->request->getVar('service_id'))->getRow();
+		
+		$in = $homeModel->insertBooking($data);
+		
+		if($in){
+			echo '
+			<script>
+			var whatsappMessage= "*Nama:* '.$member->member_first_name.'"+"\r\n"+"*Email:* '.$member->member_email.'"+"\r\n"+"*HP:* '.$member->member_phone.'"+"\r\n"+"*Booking Service:* '.$service->service_name.'"+"\r\n"+"*Kota:* '.$this->request->getVar('service_city').'"+"\r\n"+"*Kota:* '.$this->request->getVar('service_price').'";
+			whatsappMessage = window.encodeURIComponent(whatsappMessage)
+			window.open("https://wa.me/6281232724927?text="+whatsappMessage);
+			</script>
+			';
+			
+		}else{
+			echo '<script>alert("Failed."); document.location="'.base_url('page/4/service-perizinan').'";</script>';
+		}
+		
+	}
+	
     public function landing($landing_id = null, $landing_slug = null)
 	{
-		$session = \Config\Services::session();
-
+		
 		$homeModel = new HomeModel();
         $data_landing = $homeModel->getLanding("WHERE landing_id = '$landing_id' AND landing_slug = '$landing_slug'")->getResultArray();
 		
@@ -182,8 +216,21 @@ class Home extends BaseController
 							}
 						$render['result'] .= '
 							</td>
-							<td>
-								<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</button>
+							<td>';
+								
+								if($this->session->has('member_id')){
+									$render['result'] .= '<form method="post" action="'.base_url().'/home/booking">
+									<input type="hidden" name="member_id" value="'.$this->session->get()['member_id'].'">
+									<input type="hidden" name="service_id" value="'.$ser->service_id.'">
+									<input type="hidden" name="service_city" value="'.$wilayah.'">
+									<input type="hidden" name="service_price" value="'.$cost.'">
+									<button type="submit" class="btn button-book mx-auto">Book Now</button>
+									</form>';
+								}else{
+									$render['result'] .= '<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</button>';
+								}
+								
+						$render['result'] .= '
 							</td>
 						</tr>
 						';
@@ -251,7 +298,13 @@ class Home extends BaseController
 					$render['result'] .= '	  
 						  </p>
 						</div>
-						<a class="btn button-book-mobile" href="#">Book Now</a>
+						';
+						if($this->session->has('member_id')){
+									$render['result'] .= '<a class="btn button-book-mobile" href="/home/booking">Book Now</a>';
+								}else{
+									$render['result'] .= '<a class="btn button-book-mobile" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</a>';
+								}
+					$render['result'] .= '	
 					  </div>
 					</div>
 				</div>
@@ -263,6 +316,54 @@ class Home extends BaseController
             </div>
 			
 			';
+			
+			$render['_js'] = "
+			<script>
+				$('#form').submit(function(e) {
+					$('#messages').removeClass('alert alert-danger').hide();
+					$('#loader').show();
+				
+					var form = $(this);
+					var formdata = false;
+					if(window.FormData){
+						formdata = new FormData(form[0]);
+					}
+
+					var formAction = form.attr('action');
+					$.ajax({
+						type        : 'POST',
+						url         : '".base_url()."/account/login_proses',
+						cache       : false,
+						data        : formdata ? formdata : form.serialize(),
+						contentType : false,
+						processData : false,
+						dataType	: 'json',
+				
+						success: function(response) {
+							if(response.type == 'success') {
+								setTimeout(function(){ 
+									$('#loader').hide();
+									$('#messages').show();
+									$('#messages').addClass('alert alert-success').text(response.message);
+									setTimeout(function(){
+										document.location='".base_url()."/page/4/service-perizinan';
+									}, 3000);
+								}, 3000);
+							} else {
+								setTimeout(function(){ 
+									$('#loader').hide();
+									$('#messages').show();
+									$('#messages').addClass('alert alert-danger').text(response.message);
+								}, 3000);
+								
+							}
+						}
+					});
+					
+					e.preventDefault();
+				});
+			</script>
+			";
 			
 		}
 		

@@ -10,6 +10,11 @@ class HomeModel extends Model
         return $this->db->query("SELECT * FROM tbl_landing $condition");
     }
 
+    function getShortCutMenu($condition = '')
+    {
+        return $this->db->query("SELECT * FROM tbl_menu $condition");
+    }
+
     function getSlide($condition = '')
     {
         return $this->db->query("SELECT * FROM tbl_slide $condition");

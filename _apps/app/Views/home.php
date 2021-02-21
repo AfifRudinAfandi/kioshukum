@@ -33,21 +33,19 @@
     </section>
 <?php } ?>
 
-<?php if ($landing_service_category == 1) { ?>
-    <section class="home service-menu">
-        <div class="container">
-            <ul class="row gx-2 gy-2">
-                <?php foreach ($service_category_data as $service) { ?>
-                    <li class="nav-item col">
-                        <a class="nav-link" href="#">
-                            <img src="<?= $service->category_icon ?>"><span><?= $service->category_name ?></span>
-                        </a>
-                    </li>
-                <?php } ?>
-            </ul>
-        </div>
-    </section>
-<?php } ?>
+<section class="home service-menu">
+    <div class="container">
+        <ul class="row gx-2 gy-2">
+            <?php foreach ($landing_shortcut_menu as $menu) { ?>
+                <li class="nav-item col">
+                    <a class="nav-link" href="<?= $menu->menu_link ?>">
+                        <img src="<?= $menu->menu_icon ?>"><span><?= $menu->menu_title ?></span>
+                    </a>
+                </li>
+            <?php } ?>
+        </ul>
+    </div>
+</section> 
 
 <?php if (!empty($s1_landing_title)) { ?>
     <section class="about-company home">

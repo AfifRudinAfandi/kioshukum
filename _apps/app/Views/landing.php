@@ -26,7 +26,9 @@
                             <p class="banner-lable"><?= $slide->slide_label ?></p>
                             <h1 class="banner-title"><?= $slide->slide_title ?></h1>
                             <p class="banner-description"><?= $slide->slide_description ?></p>
-                            <a class="btn btn-banner" href="<?= $slide->slide_link ?>">Learn More</a>
+                            <?php if($slide->slide_link != "#" && $slide->slide_link != ""){ ?>
+                                <a class="btn btn-banner" href="<?= $slide->slide_link ?>">Learn More</a>
+                            <?php } ?>
                         </div>
                     </div>
                 <?php $i++; } ?>

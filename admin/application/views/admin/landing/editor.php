@@ -28,7 +28,7 @@
                         <label class="col-sm-3 control-label">Landing Slide</label>
                         <div class="col-sm-6">
                             <select name="landing_slide" class="form-control">
-                                <option value="" selected>default</option>
+                                <!-- <option value="" selected>default</option> -->
                                 <?php foreach ($data_slide_category as $row) { ?>
                                     <option value="<?= $row['slide_category_id']; ?>" <?php if ($landing_slide == $row['slide_category_id']) {
                                                                                             echo 'selected';

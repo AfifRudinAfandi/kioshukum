@@ -199,7 +199,7 @@ class Landing extends CI_Controller
                     'landing_work'         => $landing_work,
                     'work_list'         => $work_list,
 
-                    'section1_on'     => $s1_landing_title,
+                    'section1_on'     => $section1_on,
                     's1_landing_title'     => $s1_landing_title,
                     's1_landing_content'     => $s1_landing_content,
 
@@ -249,7 +249,7 @@ class Landing extends CI_Controller
                     'landing_work'         => $landing_work,
                     'work_list'         => $work_list,
 
-                    'section1_on'     => $s1_landing_title,
+                    'section1_on'     => $section1_on,
                     's1_landing_title'     => $s1_landing_title,
                     's1_landing_content'     => $s1_landing_content,
 

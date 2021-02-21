@@ -79,7 +79,7 @@ class Home extends BaseController
 			<script>
 			var whatsappMessage= "*Nama:* '.$member->member_first_name.'"+"\r\n"+"*Email:* '.$member->member_email.'"+"\r\n"+"*HP:* '.$member->member_phone.'"+"\r\n"+"*Booking Service:* '.$service->service_name.'"+"\r\n"+"*Kota:* '.$this->request->getVar('service_city').'"+"\r\n"+"*Kota:* '.$this->request->getVar('service_price').'";
 			whatsappMessage = window.encodeURIComponent(whatsappMessage)
-			window.open("https://wa.me/6281232724927?text="+whatsappMessage);
+			window.open("https://wa.me/6281927939290?text="+whatsappMessage);
 			</script>
 			';
 			

@@ -259,7 +259,9 @@ Wherever you are</h1>
             <div class="col wrapper-step-description">
                 <p class="feature-title"><?= $work->work_title ?></p>
                 <p class="feature-description"><?= $work->work_description ?></p>
-                <a class="btn button-step" href="<?= $work->work_link ?>">Learn More</a>
+                <?php if($work->work_link != "#" && $work->work_link != ""){ ?>
+                    <a class="btn button-step" href="<?= $work->work_link ?>">Learn More</a>
+                <?php } ?>
             </div>
         </div>
     </div>

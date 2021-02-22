@@ -213,7 +213,7 @@ Wherever you are</h1>
 </div>
 <div id="loader" style="display:none; margin-bottom: 20px;"><i class="fa fa-spinner fa-spin fa-fw"></i> Please wait...</div>
 <button class="btn button-messages mb-4" type="submit">Log In Now</button>
-<p class="direct-link">Don’t have an account? <a href="register.html">Register</a></p>
+<p class="direct-link">Don’t have an account? <a href="<?= base_url('account/register') ?>">Register</a></p>
 </form>
 
 </div>

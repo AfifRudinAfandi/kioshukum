@@ -2057,6 +2057,11 @@ section.pricing .wrapper-table-content{
     align-items: flex-start;
     justify-content: space-between;
 }
+section.pricing .wrapper-btn-mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 section.pricing .button-book-mobile, section.pricing .button-book-mobile:hover{
     font-style: normal;
     font-weight: normal;

@@ -300,11 +300,6 @@ class Home extends BaseController
 						  </p>
 						</div>
 						';
-						// if($this->session->has('member_id')){
-						// 			$render['result'] .= '<a class="btn button-book-mobile" href="/home/booking">Book Now</a>';
-						// 		}else{
-						// 			$render['result'] .= '<a class="btn button-book-mobile" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</a>';
-						// 		}
 						if($this->session->has('member_id')){
 							$render['result'] .= '<form method="post" action="'.base_url().'/home/booking">
 							<input type="hidden" name="member_id" value="'.$this->session->get()['member_id'].'">

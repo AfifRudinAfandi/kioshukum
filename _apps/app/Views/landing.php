@@ -182,8 +182,8 @@
 <div class="col-md-6">
 <div class="left">
 <div class="wrapper-icon-form">
-<img class="image-icon" src="../../assets/static/images/team2.jpg">
-<img class="decore" src="../../assets/static/images/decore.svg">
+<img class="image-icon" src="<?= base_url() ?>/assets/static/images/team2.jpg">
+<img class="decore" src="<?= base_url() ?>/assets/static/images/decore.svg">
 </div>
 <p class="quotes">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
 </div>

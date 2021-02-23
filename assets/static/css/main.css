@@ -89,15 +89,15 @@
 .btn-nav-solid:hover{
     color: #ffffff;
 }
-.main-nav .dropdown-row{
+.main-nav .navbar-nav .dropdown-row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
-.main-nav .dropdown-item:focus, .dropdown-item:hover{
+.main-nav .navbar-nav .dropdown-item:focus, .dropdown-item:hover{
     background-color: #ffffff00;
 }
-.main-nav .dropdown-menu{
+.main-nav .navbar-nav .dropdown-menu{
     margin: 0;
     border: none;
     border-radius: 0;
@@ -106,7 +106,7 @@
     line-height: 17px;
     background-color: rgba(255, 255, 255, 0.99);
 }
-.main-nav .dropdown-multicol{
+.main-nav .navbar-nav .dropdown-multicol{
     width: 43em;
     padding: 24px 28px;
 }
@@ -228,6 +228,41 @@
     margin-top: -8px;
 }
 
+
+.main-nav .wrapper-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding: 4px 0px;
+}
+.main-nav .wrapper-profile .ic-profile{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.main-nav .wrapper-profile .profile-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #132237;
+    margin-bottom: 0;
+}
+.main-nav .dropdown-toggle::after{
+    font-family: "Font Awesome 5 Free";
+    content: "\f0dd";
+    font-weight: 900;
+    color: rgba(45, 57, 88, 0.5);
+    border: none;
+    font-size: 22px;
+    margin-left: 10px;
+    margin-top: -8px;
+}
 /* Navbar-Section-End */
 
 /* ===================================== */

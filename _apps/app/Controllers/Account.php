@@ -20,7 +20,8 @@ class Account extends BaseController
 		$homeModel = new HomeModel();
 		
         $render = [
-        	'setting'						=> $this->setting->getRow(),
+        	'setting'			=> $this->setting->getRow(),
+        	'session' 			=> session(),
             'blog_title'		=> 'Kios Hukum',
             '_css' => array(
                 base_url() . "/assets/static/css/dashboard.css"
@@ -37,62 +38,62 @@ class Account extends BaseController
         	'setting'	 => $this->setting->getRow(),
             'blog_title' => 'Kios Hukum',
             '_js'  		 => "
-                <script>
-				  const togglePassword = document.querySelector('#togglePassword');
-				  const password = document.querySelector('#password');
+<script>
+	const togglePassword = document.querySelector('#togglePassword');
+	const password = document.querySelector('#password');
 
-				  togglePassword.addEventListener('click', function (e) {
-					const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-					password.setAttribute('type', type);
-					this.classList.toggle('fa-eye-slash');
-				  });
-				</script>
+	togglePassword.addEventListener('click', function (e) {
+		const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+		password.setAttribute('type', type);
+		this.classList.toggle('fa-eye-slash');
+	});
+</script>
+
+<script>
+$('#form').submit(function(e) {
+	$('#messages').removeClass('alert alert-danger').hide();
+	$('#loader').show();
+
+	var form = $(this);
+	var formdata = false;
+	if(window.FormData){
+		formdata = new FormData(form[0]);
+	}
+
+	var formAction = form.attr('action');
+	$.ajax({
+		type        : 'POST',
+		url         : '".base_url()."/account/login_proses',
+		cache       : false,
+		data        : formdata ? formdata : form.serialize(),
+		contentType : false,
+		processData : false,
+		dataType	: 'json',
+
+		success: function(response) {
+			if(response.type == 'success') {
+				setTimeout(function(){ 
+					$('#loader').hide();
+					$('#messages').show();
+					$('#messages').addClass('alert alert-success').text(response.message);
+					setTimeout(function(){
+						document.location='/account';
+					}, 3000);
+				}, 3000);
+			} else {
+				setTimeout(function(){ 
+					$('#loader').hide();
+					$('#messages').show();
+					$('#messages').addClass('alert alert-danger').text(response.message);
+				}, 3000);
 				
-				<script>
-					$('#form').submit(function(e) {
-						$('#messages').removeClass('alert alert-danger').hide();
-						$('#loader').show();
-					
-						var form = $(this);
-						var formdata = false;
-						if(window.FormData){
-							formdata = new FormData(form[0]);
-						}
-
-						var formAction = form.attr('action');
-						$.ajax({
-							type        : 'POST',
-							url         : '".base_url()."/account/login_proses',
-							cache       : false,
-							data        : formdata ? formdata : form.serialize(),
-							contentType : false,
-							processData : false,
-							dataType	: 'json',
-					
-							success: function(response) {
-								if(response.type == 'success') {
-									setTimeout(function(){ 
-										$('#loader').hide();
-										$('#messages').show();
-										$('#messages').addClass('alert alert-success').text(response.message);
-										setTimeout(function(){
-											document.location='/account';
-										}, 3000);
-									}, 3000);
-								} else {
-									setTimeout(function(){ 
-										$('#loader').hide();
-										$('#messages').show();
-										$('#messages').addClass('alert alert-danger').text(response.message);
-									}, 3000);
-									
-								}
-							}
-						});
-						
-						e.preventDefault();
-					});
-				</script>
+			}
+		}
+	});
+	
+	e.preventDefault();
+});
+</script>
             ",
         ];
 
@@ -103,83 +104,83 @@ class Account extends BaseController
 	{
 		
         $render = [
-        	'setting'						=> $this->setting->getRow(),
-            'blog_title'		=> 'Kios Hukum',
+        	'setting'		=> $this->setting->getRow(),
+            'blog_title'	=> 'Kios Hukum',
             '_js' => "
 
 <script>
-      const togglePassword = document.querySelector('#togglePassword');
-      const password = document.querySelector('#password');
+	const togglePassword = document.querySelector('#togglePassword');
+	const password = document.querySelector('#password');
 
-      const togglePasswordConfirm = document.querySelector('#togglePasswordConfirm');
-      const passwordConfirm = document.querySelector('#confirm_password');
+	const togglePasswordConfirm = document.querySelector('#togglePasswordConfirm');
+	const passwordConfirm = document.querySelector('#confirm_password');
 
-      togglePassword.addEventListener('click', function (e) {
-        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-        password.setAttribute('type', type);
-        this.classList.toggle('fa-eye-slash');
-      });
-      togglePasswordConfirm.addEventListener('click', function (e) {
-        const type = passwordConfirm.getAttribute('type') === 'password' ? 'text' : 'password';
-        passwordConfirm.setAttribute('type', type);
-        this.classList.toggle('fa-eye-slash');
-      });
-    </script>
-	
-	<script>
+	togglePassword.addEventListener('click', function (e) {
+		const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+		password.setAttribute('type', type);
+		this.classList.toggle('fa-eye-slash');
+	});
+	togglePasswordConfirm.addEventListener('click', function (e) {
+		const type = passwordConfirm.getAttribute('type') === 'password' ? 'text' : 'password';
+		passwordConfirm.setAttribute('type', type);
+		this.classList.toggle('fa-eye-slash');
+	});
+</script>
+
+<script>
 	$('#password, #confirm_password').on('keyup', function () {
-	  if ($('#password').val() == $('#confirm_password').val()) {
+	if ($('#password').val() == $('#confirm_password').val()) {
 		$('#message_password').html('Matching').css('color', 'green');
-	  } else 
+	} else 
 		$('#message_password').html('Not Matching').css('color', 'red');
 	});
-    </script>
+</script>
 	
-		<script>
-			$('#form').submit(function(e) {
-				$('#messages').removeClass('alert alert-danger').hide();
-				$('#loader').show();
-			
-				var form = $(this);
-				var formdata = false;
-				if(window.FormData){
-					formdata = new FormData(form[0]);
-				}
+<script>
+	$('#form').submit(function(e) {
+		$('#messages').removeClass('alert alert-danger').hide();
+		$('#loader').show();
+	
+		var form = $(this);
+		var formdata = false;
+		if(window.FormData){
+			formdata = new FormData(form[0]);
+		}
 
-				var formAction = form.attr('action');
-				$.ajax({
-					type        : 'POST',
-					url         : '".base_url()."/account/register_proses',
-					cache       : false,
-					data        : formdata ? formdata : form.serialize(),
-					contentType : false,
-					processData : false,
-					dataType	: 'json',
-			
-					success: function(response) {
-						if(response.type == 'success') {
-							setTimeout(function(){ 
-								$('#loader').hide();
-								$('#messages').show();
-								$('#messages').addClass('alert alert-success').text(response.message);
-								setTimeout(function(){
-									document.location='login';
-								}, 3000);
-							}, 3000);
-						} else {
-							setTimeout(function(){ 
-								$('#loader').hide();
-								$('#messages').show();
-								$('#messages').addClass('alert alert-danger').text(response.message);
-							}, 3000);
-							
-						}
-					}
-				});
-				
-				e.preventDefault();
-			});
-		</script>
+		var formAction = form.attr('action');
+		$.ajax({
+			type        : 'POST',
+			url         : '".base_url()."/account/register_proses',
+			cache       : false,
+			data        : formdata ? formdata : form.serialize(),
+			contentType : false,
+			processData : false,
+			dataType	: 'json',
+	
+			success: function(response) {
+				if(response.type == 'success') {
+					setTimeout(function(){ 
+						$('#loader').hide();
+						$('#messages').show();
+						$('#messages').addClass('alert alert-success').text(response.message);
+						setTimeout(function(){
+							document.location='login';
+						}, 3000);
+					}, 3000);
+				} else {
+					setTimeout(function(){ 
+						$('#loader').hide();
+						$('#messages').show();
+						$('#messages').addClass('alert alert-danger').text(response.message);
+					}, 3000);
+					
+				}
+			}
+		});
+		
+		e.preventDefault();
+	});
+</script>
 		
 		
             ",
@@ -201,12 +202,13 @@ class Account extends BaseController
 						'member_last_name'  => $cek->member_last_name,
 						'member_email'      => $cek->member_email,
 						'member_phone'      => $cek->member_phone,
+						'logged_in'    		=> TRUE
 				];
 				$session = \Config\Services::session();
 				$session->set($newdata);
-				
 				$output = json_encode(array('type'=>'success', 'message' => 'Log in successfully, creating your session.'));
 				die($output);
+				return redirect()->to('/account');
 			}else{
 				$output = json_encode(array('type'=>'error', 'message' => 'Wrong Password!'));
 				die($output);
@@ -250,4 +252,11 @@ class Account extends BaseController
 			}
 		}
 	}
+
+	public function logout()
+    {
+        $session = session();
+        $session->destroy();
+        return redirect()->to('/home');
+    }
 }

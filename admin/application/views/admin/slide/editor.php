@@ -53,7 +53,10 @@
 						<label for="text-input">Link</label>
 						<input type="text" class="form-control" value="<?php echo $slide_link; ?>" name="slide_link" required>
 					</div>
-
+					<div class="form-group">
+						<label for="text-input">Button Label</label>
+						<input type="text" class="form-control" value="<?php echo $slide_label_button; ?>" name="slide_label_button" required>
+					</div>
 					<div class="form-group">
 						<input type="hidden" value="<?php echo $slide_id; ?>" name="slide_id" />
 						<input type="hidden" value="<?php echo $editor_status; ?>" name="editor_status" />

@@ -32,6 +32,7 @@ class work extends CI_Controller
 			'work_title' 		=> '',
 			'work_description' 	=> '',
 			'work_link' 	=> '',
+			'work_label_button' 	=> '',
 			'editor_status' 	=> 'new',
 			'title' 			=> 'Admin Panel',
 			'data_work_category' => $this->m_work->GetWorkCategory()->result_array()
@@ -53,6 +54,7 @@ class work extends CI_Controller
 			'work_title' 		=> $data_work[0]['work_title'],
 			'work_description' 	=> $data_work[0]['work_description'],
 			'work_link' 		=> $data_work[0]['work_link'],
+			'work_label_button' 		=> $data_work[0]['work_label_button'],
 
 			'editor_status' 	=> 'edit',
 			'title' 		=> 'Admin Panel',
@@ -71,6 +73,7 @@ class work extends CI_Controller
 			$work_title		= $this->input->post('work_title');
 			$work_description	= $this->input->post('work_description');
 			$work_link			= $this->input->post('work_link');
+			$work_label_button			= $this->input->post('work_label_button');
 			$editor_status		= $this->input->post('editor_status');
 
 			if ($editor_status == "new") {
@@ -79,7 +82,8 @@ class work extends CI_Controller
 					'work_icon' 		=> $work_icon,
 					'work_title' 		=> $work_title,
 					'work_description' 	=> $work_description,
-					'work_link' 		=> $work_link
+					'work_link' 		=> $work_link,
+					'work_label_button' 		=> $work_label_button
 				);
 				$result = $this->m_work->InsertData('tbl_work', $data);
 				if ($result == 1) {
@@ -97,7 +101,8 @@ class work extends CI_Controller
 					'work_icon' 		=> $work_icon,
 					'work_title' 		=> $work_title,
 					'work_description' 	=> $work_description,
-					'work_link' 		=> $work_link
+					'work_link' 		=> $work_link,
+					'work_label_button' 		=> $work_label_button
 				);
 				$result = $this->m_work->UpdateData('tbl_work', $data, array('id' => $id));
 				if ($result == 1) {

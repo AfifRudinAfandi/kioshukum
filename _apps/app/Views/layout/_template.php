@@ -106,8 +106,24 @@
 
                 </ul>
                 <div class="d-flex">
-                    <a href="<?= base_url('account/login') ?>" class="btn btn-sm btn-nav-outline">Login</a>
-                    <a href="<?= base_url('account/register') ?>" class="btn btn-sm btn-nav-solid ms-2">Register</a>
+                    <?php $session = session();
+                    if($session->logged_in == TRUE){ ?>
+
+                    <div class="dropdown">
+                      <div class="btn wrapper-profile dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="ic-profile" src="<?= base_url() ?>/assets/static/images/default.svg">
+                        <p class="profile-name"><?= $session->get('member_first_name'); ?></p>
+                      </div>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <li><a class="dropdown-item" href="<?= base_url('account/index') ?>">Dashboard</a></li>
+                        <li><a class="dropdown-item" href="<?= base_url('account/logout') ?>">Logout</a></li>
+                      </ul>
+                    </div>
+
+                    <?php } else { ?>
+                      <a href="<?= base_url('account/login') ?>" class="btn btn-sm btn-nav-outline">Login</a>
+                      <a href="<?= base_url('account/register') ?>" class="btn btn-sm btn-nav-solid ms-2">Register</a>
+                    <?php } ?>
                 </div>
             </div>
         </div>

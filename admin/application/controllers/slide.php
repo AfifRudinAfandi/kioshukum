@@ -29,6 +29,7 @@ class Slide extends CI_Controller
 			'slide_id'	 		=> '',
 			'slide_id_category' => '',
 			'slide_label'		=> '',
+			'slide_label_button' => '',
 			'slide_title' 		=> '',
 			'slide_description' => '',
 			'slide_link' 		=> '',
@@ -51,6 +52,7 @@ class Slide extends CI_Controller
 			'slide_id'	 	=> $data_slide[0]['slide_id'],
 			'slide_id_category'	 	=> $data_slide[0]['slide_id_category'],
 			'slide_label'	 	=> $data_slide[0]['slide_label'],
+			'slide_label_button'	 	=> $data_slide[0]['slide_label_button'],
 			'slide_title' 	=> $data_slide[0]['slide_title'],
 			'slide_description' 	=> $data_slide[0]['slide_description'],
 			'slide_link' 	=> $data_slide[0]['slide_link'],
@@ -69,6 +71,7 @@ class Slide extends CI_Controller
 			$slide_id			= $this->input->post('slide_id');
 			$slide_id_category	= $this->input->post('slide_id_category');
 			$slide_label		= $this->input->post('slide_label');
+			$slide_label_button		= $this->input->post('slide_label_button');
 			$slide_title		= $this->input->post('slide_title');
 			$slide_description	= $this->input->post('slide_description');
 			$slide_link			= $this->input->post('slide_link');
@@ -78,6 +81,7 @@ class Slide extends CI_Controller
 			if ($editor_status == "new") {
 				$data = array(
 					'slide_label' 	=> $slide_label,
+					'slide_label_button' 	=> $slide_label_button,
 					'slide_title' 	=> $slide_title,
 					'slide_description' => $slide_description,
 					'slide_id_category' => $slide_id_category,
@@ -97,6 +101,7 @@ class Slide extends CI_Controller
 			} else {
 				$data = array(
 					'slide_label' 	=> $slide_label,
+					'slide_label_button' 	=> $slide_label_button,
 					'slide_title' 	=> $slide_title,
 					'slide_description' => $slide_description,
 					'slide_id_category' => $slide_id_category,

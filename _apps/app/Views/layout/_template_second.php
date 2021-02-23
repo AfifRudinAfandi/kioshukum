@@ -66,10 +66,11 @@
           <div class="dropdown">
             <div class="btn wrapper-profile dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
               <img class="ic-profile" src="<?= base_url() ?>/assets/static/images/default.svg">
-              <p class="profile-name">name</p>
+              <p class="profile-name"><?= $session->get('member_first_name'); ?></p>
             </div>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Logout</a></li>
+              <li><a class="dropdown-item" href="<?= base_url('home') ?>">Main Home</a></li>
+              <li><a class="dropdown-item" href="<?= base_url('account/logout') ?>">Logout</a></li>
             </ul>
           </div>
         </div>

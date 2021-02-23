@@ -27,7 +27,7 @@
                             <h1 class="banner-title"><?= $slide->slide_title ?></h1>
                             <p class="banner-description"><?= $slide->slide_description ?></p>
                             <?php if($slide->slide_link != "#" && $slide->slide_link != ""){ ?>
-                                <a class="btn btn-banner" href="<?= $slide->slide_link ?>">Learn More</a>
+                                <a class="btn btn-banner" href="<?= $slide->slide_link ?>"><?= $slide->slide_label_button ?></a>
                             <?php } ?>
                         </div>
                     </div>
@@ -260,7 +260,7 @@ Wherever you are</h1>
                 <p class="feature-title"><?= $work->work_title ?></p>
                 <p class="feature-description"><?= $work->work_description ?></p>
                 <?php if($work->work_link != "#" && $work->work_link != ""){ ?>
-                    <a class="btn button-step" href="<?= $work->work_link ?>">Learn More</a>
+                    <a class="btn button-step" href="<?= $work->work_link ?>"><?= $work->work_label_button ?></a>
                 <?php } ?>
             </div>
         </div>

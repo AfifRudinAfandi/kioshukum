@@ -59,6 +59,18 @@ class Home extends BaseController
 	{
 		$homeModel = new HomeModel();
 		
+		echo '
+		<script>
+		var whatsappMessage= "*Nama:* '.$_POST['nama'].'"+"\r\n"+"*HP:* '.$_POST['hp'].'"+"\r\n"+"*Booking Service:* '.$_POST['service_name'].'"+"\r\n"+"*Kota:* '.$_POST['service_city'].'"+"\r\n"+"*Harga:* '.$_POST['service_price'].'";
+		whatsappMessage = window.encodeURIComponent(whatsappMessage)
+		
+		location.href = "https://wa.me/6281927939290?text="+whatsappMessage;
+		
+		</script>
+		
+		';
+		
+		/*
 		$data = [
 			'booking_date'          => date("Y-m-d H:i:s"),
 			'booking_member_id'     => $this->request->getVar('member_id'),
@@ -78,15 +90,18 @@ class Home extends BaseController
 			<script>
 			var whatsappMessage= "*Nama:* '.$member->member_first_name.'"+"\r\n"+"*Email:* '.$member->member_email.'"+"\r\n"+"*HP:* '.$member->member_phone.'"+"\r\n"+"*Booking Service:* '.$service->service_name.'"+"\r\n"+"*Kota:* '.$this->request->getVar('service_city').'"+"\r\n"+"*Harga:* '.$this->request->getVar('service_price').'";
 			whatsappMessage = window.encodeURIComponent(whatsappMessage)
-			window.open("https://wa.me/6281927939290?text="+whatsappMessage);
-			document.location="http://kioshukum.codekece.id/";
+			
+			let newTab = window.open("https://wa.me/6281927939290?text="+whatsappMessage);
+			newTab.location.href = url;
+		
 			</script>
+			
 			';
 			
 		}else{
 			echo '<script>alert("Failed."); document.location="'.base_url('page/4/service-perizinan').'";</script>';
 		}
-		
+		*/
 	}
 	
     public function landing($landing_id = null, $landing_slug = null)
@@ -215,8 +230,53 @@ class Home extends BaseController
 							}
 						$render['result'] .= '
 							</td>
-							<td>';
+							<td>
+								<!-- Modal -->
+								<div class="modal fade" id="staticBackdrop'.$ser->service_id.'" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content modal-content-login">
+											<div class="modal-body login-form">
+												<div class="row">
+													
+													<div class="col-md-12">
+														<div class="form-login">
+															<h1 class="title">Booking order</h1>
+															<p>Isi form di bawah ini</p>
+															<form id="form" method="post" action="'.base_url().'/home/booking">
+																<input type="hidden" name="service_name" value="'.$ser->service_name.'">
+																<input type="hidden" name="service_city" value="'.$wilayah.'">
+																<input type="hidden" name="service_price" value="'.$cost.'">
+																<div class="wrapper-form-control">
+																	<div class="col-md-12">
+																		<label for="nama" class="form-label">Nama Lengkap</label>
+																		<input type="text" name="nama" class="form-control" placeholder="Nama Lengkap" required>
+																	</div>
+																</div>
+																
+																<div class="wrapper-form-control my-3">
+																	<div class="col-md-12">
+																		<label for="hp" class="form-label">Nomor Whatsapp</label>
+																		<input type="text" name="hp" class="form-control" placeholder="Nomor Whatsapp" required>
+																	</div>
+																</div>
+																
+																<button class="btn btn-primary mb-4" type="submit">Booking Now</button>
+															</form>
+														</div>
+													</div>
+												</div>
+												<button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+										</div>
+									</div>
+								</div>
+							';
 								
+								$render['result'] .= '
+								<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Book Now</button>
+								';
+								
+								/*
 								if($this->session->has('member_id')){
 									$render['result'] .= '<form method="post" action="'.base_url().'/home/booking">
 									<input type="hidden" name="member_id" value="'.$this->session->get()['member_id'].'">
@@ -228,7 +288,7 @@ class Home extends BaseController
 								}else{
 									$render['result'] .= '<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</button>';
 								}
-								
+								*/
 						$render['result'] .= '
 							</td>
 						</tr>
@@ -297,7 +357,48 @@ class Home extends BaseController
 					$render['result'] .= '	  
 						  </p>
 						</div>
+						<!-- Modal -->
+						<div class="modal fade" id="staticBackdrop'.$ser->service_id.'" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+							<div class="modal-dialog">
+								<div class="modal-content modal-content-login">
+									<div class="modal-body login-form">
+										<div class="row">
+											
+											<div class="col-md-12">
+												<div class="form-login">
+													<h1 class="title">Booking order</h1>
+													
+													<form id="form" method="post">
+														<input type="hidden" name="service_name" value="'.$ser->service_name.'">
+														<input type="hidden" name="service_city" value="'.$wilayah.'">
+														<input type="hidden" name="service_price" value="'.$cost.'">
+														<div class="wrapper-form-control">
+															<div class="col-md-12">
+																<label for="nama" class="form-label">Nama Lengkap</label>
+																<input type="text" name="nama" class="form-control" placeholder="Nama Lengkap">
+															</div>
+														</div>
+														
+														<div class="wrapper-form-control my-3">
+															<div class="col-md-12">
+																<label for="hp" class="form-label">Nomor Whatsapp</label>
+																<input type="text" name="hp" class="form-control" placeholder="Nomor Whatsapp">
+															</div>
+														</div>
+														
+														<button class="btn btn-primary mb-4" type="submit">Booking Now</button>
+													</form>
+												</div>
+											</div>
+										</div>
+										<button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+									</div>
+								</div>
+							</div>
+						</div>
 						';
+						$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Book Now</a>';
+						/*
 						if($this->session->has('member_id')){
 							$render['result'] .= '<form method="post" action="'.base_url().'/home/booking">
 							<input type="hidden" name="member_id" value="'.$this->session->get()['member_id'].'">
@@ -311,6 +412,7 @@ class Home extends BaseController
 						}else{
 							$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</a>';
 						}
+						*/
 					$render['result'] .= '	
 					  </div>
 					</div>
@@ -324,6 +426,7 @@ class Home extends BaseController
 			
 			';
 			
+			/*
 			$render['_js'] = "
 			<script>
 				$('#form').submit(function(e) {
@@ -371,6 +474,7 @@ class Home extends BaseController
 				});
 			</script>
 			";
+			*/
 			
 		}
 		

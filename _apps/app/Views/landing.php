@@ -173,75 +173,7 @@
     </div>
 </section>
 
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-<div class="modal-dialog modal-lg">
-<div class="modal-content modal-content-login">
-<div class="modal-body login-form">
-<div class="row">
-<div class="col-md-6">
-<div class="left">
-<div class="wrapper-icon-form">
-<img class="image-icon" src="<?= base_url() ?>/assets/static/images/team2.jpg">
-<img class="decore" src="<?= base_url() ?>/assets/static/images/decore.svg">
-</div>
-<p class="quotes">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
-</div>
-</div>
-<div class="col-md-6">
-<div class="right form-login">
-<h1 class="title">Login to get awesome services,
-Wherever you are</h1>
-<div id="messages"></div>
-<form id="form" method="post">
-<input type="hidden" name="from" value="service">
-<div class="wrapper-form-control">
-<div class="col">
-<label for="email" class="form-label">Email Address</label>
-<input type="email" name="email" class="form-control" placeholder="mail@gmail.com" id="email"/>
-</div>
-</div>
-<div class="wrapper-form-control">
-<div class="col">
-<label for="password" class="form-label">Password</label>
-<div class="wrapper-password">
-<input type="password" name="password" class="form-control password_input" placeholder="**********" id="password"/>
-<i class="preview_icon far fa-eye" id="togglePassword"></i>
-</div>
-</div>
-<a class="forgot" href="#">Forgot Password?</a>
-</div>
-<div id="loader" style="display:none; margin-bottom: 20px;"><i class="fa fa-spinner fa-spin fa-fw"></i> Please wait...</div>
-<button class="btn button-messages mb-4" type="submit">Log In Now</button>
-<p class="direct-link">Don’t have an account? <a href="<?= base_url('account/register') ?>">Register</a></p>
-</form>
 
-</div>
-</div>
-</div>
-<button type="button" class="btn btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-</div>
-</div>
-</div>
-<script>
-      const togglePassword = document.querySelector('#togglePassword');
-      const password = document.querySelector('#password');
-
-      const togglePasswordConfirm = document.querySelector('#togglePasswordConfirm');
-      const passwordConfirm = document.querySelector('#confirm_password');
-
-      togglePassword.addEventListener('click', function (e) {
-        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-        password.setAttribute('type', type);
-        this.classList.toggle('fa-eye-slash');
-      });
-      togglePasswordConfirm.addEventListener('click', function (e) {
-        const type = passwordConfirm.getAttribute('type') === 'password' ? 'text' : 'password';
-        passwordConfirm.setAttribute('type', type);
-        this.classList.toggle('fa-eye-slash');
-      });
-    </script>
 <?php } ?>
 
 <!-- // HOW IT WORK SECTION -->

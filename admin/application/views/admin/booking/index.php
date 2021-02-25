@@ -33,19 +33,24 @@
                                     <td><?= $row['service_name'] ?></td>
                                     <td><?= $row['booking_city'] ?></td>
                                     <td><?= $row['booking_price'] ?></td>
-                                    <td><?= $row['booking_status'] ?></td>
+                                    <td><?php
+									if($row['booking_status'] == 0){
+										echo 'Pending';
+									}else if($row['booking_status'] == 1){
+										echo 'Proses';
+									}else if($row['booking_status'] == 2){
+										echo 'Selesai';
+									}
+									?></td>
                                     <td>
-                                        <a href="<?= base_url() ?>booking/view/<?= $row['booking_id'] ?>" title="Change" class="btn btn-warning btn-xs"><i class="fa fa-pencil-square-o fa-fw"></i> Change Status</a>
 										<div class="btn-group">
-											<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-											Action <span class="caret"></span>
+											<button type="button" class="btn btn-warning btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fa fa-pencil-square-o fa-fw"></i> Set Status <span class="caret"></span>
 											</button>
 											<ul class="dropdown-menu">
-												<li><a href="<?= base_url() ?>booking/setstatus/<?= $row['booking_id'] ?>/1">Selesai</a></li>
-												<li><a href="#">Another action</a></li>
-												<li><a href="#">Something else here</a></li>
-												<li role="separator" class="divider"></li>
-												<li><a href="#">Separated link</a></li>
+												<li><a href="<?= base_url() ?>booking/setstatus/<?= $row['booking_id'] ?>/2">Selesai</a></li>
+												<li><a href="<?= base_url() ?>booking/setstatus/<?= $row['booking_id'] ?>/1">Proses</a></li>
+												<li><a href="<?= base_url() ?>booking/setstatus/<?= $row['booking_id'] ?>/0">Pending</a></li>
 											</ul>
 										</div>
                                         <a href="<?= base_url() ?>booking/delete/<?= $row['booking_id'] ?>" title="Remove" class="btn btn-danger btn-xs" onClick="return confirm('Anda yakin akan Menghaspus data ini?..')">

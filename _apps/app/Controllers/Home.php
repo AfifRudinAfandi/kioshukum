@@ -273,7 +273,7 @@ class Home extends BaseController
 							';
 								
 								$render['result'] .= '
-								<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Book Now</button>
+								<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Pesan Sekarang</button>
 								';
 								
 								/*
@@ -397,7 +397,7 @@ class Home extends BaseController
 							</div>
 						</div>
 						';
-						$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Book Now</a>';
+						$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Pesan Sekarang</a>';
 						/*
 						if($this->session->has('member_id')){
 							$render['result'] .= '<form method="post" action="'.base_url().'/home/booking">

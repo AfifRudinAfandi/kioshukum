@@ -27,7 +27,6 @@ class Home extends BaseController
             'landing_name'              => $data_landing[0]['landing_name'],
             'landing_slide'             => $data_landing[0]['landing_slide'],
             'landing_slide_data'        => $homeModel->getSlide("WHERE slide_id_category  = ".$data_landing[0]['landing_slide']."")->getResult(),
-            //'landing_service_category'  => $data_landing[0]['landing_service_category'],
 			'landing_shortcut_menu'  	=> $homeModel->getShortCutMenu("WHERE is_parent = 93")->getResult(),
             'service_category_data'     => $homeModel->getServiceCategory()->getResult(),
             's1_landing_title'          => $data_landing[0]['s1_landing_title'],
@@ -77,9 +76,10 @@ class Home extends BaseController
 		if($in){
 			echo '
 			<script>
-			var whatsappMessage= "*Nama:* '.$member->member_first_name.'"+"\r\n"+"*Email:* '.$member->member_email.'"+"\r\n"+"*HP:* '.$member->member_phone.'"+"\r\n"+"*Booking Service:* '.$service->service_name.'"+"\r\n"+"*Kota:* '.$this->request->getVar('service_city').'"+"\r\n"+"*Kota:* '.$this->request->getVar('service_price').'";
+			var whatsappMessage= "*Nama:* '.$member->member_first_name.'"+"\r\n"+"*Email:* '.$member->member_email.'"+"\r\n"+"*HP:* '.$member->member_phone.'"+"\r\n"+"*Booking Service:* '.$service->service_name.'"+"\r\n"+"*Kota:* '.$this->request->getVar('service_city').'"+"\r\n"+"*Harga:* '.$this->request->getVar('service_price').'";
 			whatsappMessage = window.encodeURIComponent(whatsappMessage)
 			window.open("https://wa.me/6281927939290?text="+whatsappMessage);
+			document.location="http://kioshukum.codekece.id/";
 			</script>
 			';
 			
@@ -101,11 +101,9 @@ class Home extends BaseController
         $render['landing_name']             = $data_landing[0]['landing_name'];
         $render['landing_shortdesc']        = $data_landing[0]['landing_shortdesc'];
         $render['landing_search']           = $data_landing[0]['landing_search'];
-		$render['landing_service_category'] = $data_landing[0]['landing_service_category'];
 		
         $render['landing_slide']            = $data_landing[0]['landing_slide'];
         $render['landing_slide_data']       = $homeModel->getSlide("WHERE slide_id_category  = ".$data_landing[0]['landing_slide']."")->getResult();
-        $render['landing_service_category']	= $data_landing[0]['landing_service_category'];
         $render['service_category_data']    = $homeModel->getServiceCategory()->getResult();
 	
         $render['landing_work']             = $data_landing[0]['landing_work'];
@@ -159,8 +157,8 @@ class Home extends BaseController
 		}else{
 			$render['landing_testimonial_data'] = $homeModel->getTestimonial("WHERE set_as_home=1 AND testimonial_status=1")->getResultArray();
 		}
-
-		$c = $homeModel->getServiceCategory()->getResult();
+		$b = $data_landing[0]['landing_service_category'];
+		$c = $homeModel->getServiceCategory("WHERE category_id IN ($b)")->getResult();
 		$render['service'] = '<select name="service" class="form-select" aria-label="Default select example" required>';
 		$render['service'] .= '<option value="">--Pilih Service--</option>';
 		foreach($c as $category){

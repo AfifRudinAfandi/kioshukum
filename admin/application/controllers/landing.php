@@ -33,6 +33,8 @@ class Landing extends CI_Controller
             'data_slide_category' => $this->m_landing->GetSlideCategory()->result_array(),
 
             'landing_search' => '',
+            'data_service_category' => $this->m_landing->GetServiceCategory()->result_array(),
+            'landing_service_category' => '',
 
             'landing_lawyers' => '',
             'lawyers_list' => '',
@@ -88,6 +90,8 @@ class Landing extends CI_Controller
             'data_slide_category' => $this->m_landing->GetSlideCategory()->result_array(),
 
             'landing_search'         => $data_landing[0]['landing_search'],
+            'data_service_category' => $this->m_landing->GetServiceCategory()->result_array(),
+            'landing_service_category' => $data_landing[0]['landing_service_category'],
 
             'landing_lawyers'         => $data_landing[0]['landing_lawyers'],
             'lawyers_list'         => $data_landing[0]['lawyers_list'],
@@ -139,7 +143,7 @@ class Landing extends CI_Controller
             $landing_shortdesc        = $this->input->post('landing_shortdesc');
 
             $landing_slide        = $this->input->post('landing_slide');
-            $landing_service_category        = $this->input->post('landing_service_category');
+            $landing_service_category  = $this->input->post('landing_service_category');
 
             $landing_search        = $this->input->post('landing_search');
 
@@ -189,9 +193,9 @@ class Landing extends CI_Controller
                     'landing_shortdesc'         => $landing_shortdesc,
 
                     'landing_slide'         => $landing_slide,
-                    'landing_service_category'         => $landing_service_category,
 
                     'landing_search'         => $landing_search,
+                    'landing_service_category'         => implode(",",$landing_service_category),
 
                     'landing_lawyers'         => $landing_lawyers,
                     'lawyers_list'         => $lawyers_list,
@@ -239,9 +243,9 @@ class Landing extends CI_Controller
                     'landing_shortdesc'         => $landing_shortdesc,
 
                     'landing_slide'         => $landing_slide,
-                    'landing_service_category'         => $landing_service_category,
 
                     'landing_search'         => $landing_search,
+                    'landing_service_category'  => implode(",",$landing_service_category),
 
                     'landing_lawyers'         => $landing_lawyers,
                     'lawyers_list'         => $lawyers_list,

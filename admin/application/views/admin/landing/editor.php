@@ -190,6 +190,19 @@
                         </div>
                     </div>
 
+                    <div class="form-group">
+                        <label class="col-sm-3 control-label">Service Category</label>
+                        <div class="col-sm-6">
+                            <select name="landing_service_category[]" class="form-control" multiple>
+                                <?php 
+                                $service_id = explode(",",$landing_service_category);
+                                foreach ($data_service_category as $row) { ?>
+                                <option value="<?= $row['category_id']; ?>"  <?php if(array_search($row['category_id'], $service_id) !== false) {echo 'selected';} ?>  ><?= $row['category_name'] ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
+                    </div>
+
                     <hr/>
 
                     <div class="form-group">

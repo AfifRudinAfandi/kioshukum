@@ -141,7 +141,7 @@
 <section class="pricing">
     <div class="container">
         <div class="wrapper-pricing">
-            <p class="company-lable">Kios Hukum.id</p>
+            <!-- <p class="company-lable">Kios Hukum.id</p> -->
             <h1 class="pricing-title">Jaminan Layanan Terbaik</h1>
             <p class="pricing-description">
             Kios Hukum.id menyediakan layanan bantuan hukum terbaik dan di
@@ -180,7 +180,7 @@
 <?php if (!empty($landing_work)) { ?>
 
 <section class="how-it-works">
-    <p class="how-it-title">How it Works</p>
+    <p class="how-it-title">Cara Kerja Kios Hukum</p>
     <div class="seperator"></div>
     <?php foreach ($landing_work_data as $work) { ?>
     <div class="wrapper-step">
@@ -227,16 +227,16 @@
 <?php } ?>
 
 <!-- // PARTNER SECTION -->
-<?php if (!empty($landing_partner) && $landing_partner == 1) { ?>
+<?php if (!empty($partner_on) && $partner_on == 1) { ?>
     <section class="partnership">
         <div class="container">
             <div class="row wrapper-partnership">
                 <div class="col-md-4 mb-4">
-                    <p class="partnership-title">Pertener with us</p>
+                    <p class="partnership-title">Bekerja Sama Dengan</p>
                     <div class="partnership-seperator"></div>
                 </div>
                 <div class="col-md-8 mb-4">
-                    <p class="partnership-description">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. </p>
+                    <p class="partnership-description">Kami sudah bekerjasama dengan berbagai lembaga terpercaya untuk dapat melayani anda dengan baik.</p>
                 </div>
                 <?php foreach ($landing_partner_data as $partner) { ?>
                 <div class="col col-img">
@@ -249,7 +249,7 @@
 <?php } ?>
 
 <!-- // TESTIMONIAL SECTION -->
-<?php if (!empty($testimonial_on)) { ?>
+<?php if (!empty($testimonial_on) && $testimonial_on == 1) { ?>
     <section class="testimonial">
         <div class="container">
             <div class="wrapper-testimonial">

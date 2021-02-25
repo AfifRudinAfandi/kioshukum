@@ -88,12 +88,12 @@
     </section>
 <?php } ?>
 
-<?php if (!empty($landing_partner) && $landing_partner == 1) { ?>
+<?php if (!empty($partner_on) && $partner_on == 1) { ?>
     <section class="partnership home">
         <div class="container">
             <div class="row wrapper-partnership">
                 <div class="col-md-4 mb-4">
-                    <p class="partnership-title">Pertener with us</p>
+                    <p class="partnership-title">Bekerja Sama Dengan</p>
                     <div class="partnership-seperator"></div>
                 </div>
                 <div class="col-md-8 mb-4">
@@ -109,7 +109,7 @@
     </section>
 <?php } ?>
 
-<?php if (!empty($landing_testimonial) && $landing_testimonial == 1) { ?>
+<?php if (!empty($testimonial_on) && $testimonial_on == 1) { ?>
     <section class="testimonial">
         <div class="container">
             <div class="wrapper-testimonial">

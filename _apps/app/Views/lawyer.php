@@ -28,28 +28,22 @@
         </p>
         <div class="row profile-identity">
             <div class="col-md-3">
-            <h5 class="head-profile-identity">Office Address</h5>
-            <!-- <p class="direction">Jakarta - <a href="#">Direct Maps</a></p> -->
-            <p class="address-detail">
-                <?= $lawyer[0]['lawyer_office'] ?>
-            </p>
-            </div>
-            <div class="col-md-3">
             <h5 class="head-profile-identity">Pengalaman</h5>
             <ul>
                 <li class="list-identity"><?= $lawyer[0]['lawyer_experien'] ?></li>
             </ul>
             </div>
             <div class="col-md-3">
-            <h5 class="head-profile-identity">Legalitas</h5>
-            <ul>
-                <li class="list-identity"><?= $lawyer[0]['lawyer_legality'] ?></li>
-            </ul>
+                <h5 class="head-profile-identity">Pendidikan</h5>
+                <p><?= $lawyer[0]['lawyer_study'] ?></p>
             </div>
             <div class="col-md-3">
-            <h5 class="head-profile-identity">Pendidikan</h5>
-            <p><?= $lawyer[0]['lawyer_study'] ?></p>
+                <h5 class="head-profile-identity">Layanan</h5>
+                <ul>
+                    <li class="list-identity"><?= $lawyer[0]['lawyer_legality'] ?></li>
+                </ul>
             </div>
+            
         </div>
         </div>
     </div>

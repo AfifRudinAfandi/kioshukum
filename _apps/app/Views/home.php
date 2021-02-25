@@ -148,7 +148,7 @@
 <?php } ?>
 
 <?php if (!empty($s2_landing_title)) { ?>
-    <section class="banner-ads">
+    <section class="banner-ads d-none">
         <div class="container">
             <div class="wrapper-banner">
                 <div class="left">

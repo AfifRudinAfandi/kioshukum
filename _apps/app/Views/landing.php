@@ -27,7 +27,7 @@
                             <h1 class="banner-title"><?= $slide->slide_title ?></h1>
                             <p class="banner-description"><?= $slide->slide_description ?></p>
                             <?php if($slide->slide_link != "#" && $slide->slide_link != ""){ ?>
-                                <a class="btn btn-banner" href="<?= $slide->slide_link ?>">Learn More</a>
+                                <a class="btn btn-banner" href="<?= $slide->slide_link ?>"><?= $slide->slide_label_button ?></a>
                             <?php } ?>
                         </div>
                     </div>
@@ -182,8 +182,8 @@
 <div class="col-md-6">
 <div class="left">
 <div class="wrapper-icon-form">
-<img class="image-icon" src="../../assets/static/images/team2.jpg">
-<img class="decore" src="../../assets/static/images/decore.svg">
+<img class="image-icon" src="<?= base_url() ?>/assets/static/images/team2.jpg">
+<img class="decore" src="<?= base_url() ?>/assets/static/images/decore.svg">
 </div>
 <p class="quotes">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
 </div>
@@ -213,7 +213,7 @@ Wherever you are</h1>
 </div>
 <div id="loader" style="display:none; margin-bottom: 20px;"><i class="fa fa-spinner fa-spin fa-fw"></i> Please wait...</div>
 <button class="btn button-messages mb-4" type="submit">Log In Now</button>
-<p class="direct-link">Don’t have an account? <a href="register.html">Register</a></p>
+<p class="direct-link">Don’t have an account? <a href="<?= base_url('account/register') ?>">Register</a></p>
 </form>
 
 </div>
@@ -260,7 +260,7 @@ Wherever you are</h1>
                 <p class="feature-title"><?= $work->work_title ?></p>
                 <p class="feature-description"><?= $work->work_description ?></p>
                 <?php if($work->work_link != "#" && $work->work_link != ""){ ?>
-                    <a class="btn button-step" href="<?= $work->work_link ?>">Learn More</a>
+                    <a class="btn button-step" href="<?= $work->work_link ?>"><?= $work->work_label_button ?></a>
                 <?php } ?>
             </div>
         </div>

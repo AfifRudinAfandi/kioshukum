@@ -1,4 +1,4 @@
-<?= $this->extend('layout/_template') ?>
+<?= $this->extend('layout/_template_second') ?>
 
 <?= $this->section('content') ?>
       <div class="dashboard-sub-nav">

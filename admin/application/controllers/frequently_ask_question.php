@@ -83,8 +83,7 @@ class Frequently_ask_question extends CI_Controller
 				$data = array(
 					'faq_question' 		=> $faq_question,
 					'faq_answer' 		=> $faq_answer,
-					'faq_category_id' 	=> $faq_category_id,
-					'lawyer_slug' 		=> url_title($lawyer_name, '-', TRUE),
+					'faq_category_id' 	=> $faq_category_id
 				);
 				$result = $this->m_faq->UpdateData('tbl_faq', $data, array('id' => $id));
 				if ($result == 1) {

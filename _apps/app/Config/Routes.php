@@ -33,6 +33,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->add('page/(:num)/(:any)', 'Home::landing/$1/$2');
 $routes->add('lawyer/(:any)', 'Lawyer::index/$1');
+$routes->get('/account', 'Account::index',['filter' => 'auth']);
 
 /**
  * --------------------------------------------------------------------

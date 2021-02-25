@@ -49,84 +49,32 @@
 </head>
 
 <body>
-    <nav class="navbar main-nav navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar main-dashboard-nav navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container-fluid ctf">
         <a class="navbar-brand" href="#">
           <img class="logo-brand" src="<?= $setting->web_logo ?>">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                    <?php
-                    $db  = \Config\Database::connect();
-                    $builder_tbl_menu = $db->table('tbl_menu');
-                    $menu = $builder_tbl_menu->getWhere(array('is_parent' => 0));
-                    foreach ($menu->getResult() as $m) {
-                        
-                      $submenu = $builder_tbl_menu->getWhere(array('is_parent'=>$m->menu_id));
-                        if(count($submenu->getResult()) > 0){ ?>
-
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"aria-expanded="false">
-                                <?=strtoupper($m->menu_title)?>
-                              </a>
-
-                              <div class="dropdown-menu dropdown-multicol" aria-labelledby="navbarDropdown" >
-                                <div class="dropdown-row">
-                            
-                                <?php foreach ($submenu->getResult() as $s){ ?>
-
-                                <div class="item-sub-menu">
-                                    <a href="<?=$s->menu_link?>" class="wrapper-menu dropdown-item">
-                                      <img  class="icon-sub-menu" src="<?=$s->menu_icon?>"/>
-                                      <div class="wrapper-sub-name ms-2">
-                                        <p class="sub-title"><?=$s->menu_title?></p>
-                                        <p class="sub-description">
-                                          <?=$s->menu_description?>
-                                        </p>
-                                      </div>
-                                    </a>
-                                </div>
-
-                                <?php } ?>
-                            
-                                </div>
-                              </div>
-                            </li>
-
-                            <?php
-                        } else { ?>
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="<?=$m->menu_link?>"><?=strtoupper($m->menu_title)?></a>
-                            </li>
-                        <?php }
-                    } ?>
-
-                </ul>
-                <div class="d-flex">
-                    <?php $session = session();
-                    if($session->logged_in == TRUE){ ?>
-
-                    <div class="dropdown">
-                      <div class="btn wrapper-profile dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img class="ic-profile" src="<?= base_url() ?>/assets/static/images/default.svg">
-                        <p class="profile-name"><?= $session->get('member_first_name'); ?></p>
-                      </div>
-                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="<?= base_url('account/index') ?>">Dashboard</a></li>
-                        <li><a class="dropdown-item" href="<?= base_url('account/logout') ?>">Logout</a></li>
-                      </ul>
-                    </div>
-
-                    <?php } else { ?>
-                      <a href="<?= base_url('account/login') ?>" class="btn btn-sm btn-nav-outline">Login</a>
-                      <a href="<?= base_url('account/register') ?>" class="btn btn-sm btn-nav-solid ms-2">Register</a>
-                    <?php } ?>
-                </div>
+        <div class="d-flex dashboard-nav-right">
+          <form action="#">
+            <div class="wrapper-search">
+              <input class="input-search" type="text" name="" placeholder="Type to Search">
+              <button class="btn search-btn" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
             </div>
+          </form>
+          <div class="dropdown">
+            <div class="btn wrapper-profile dropdown-toggle" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="ic-profile" src="<?= base_url() ?>/assets/static/images/default.svg">
+              <p class="profile-name"><?= $session->get('member_first_name'); ?></p>
+            </div>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="<?= base_url('home') ?>">Main Home</a></li>
+              <li><a class="dropdown-item" href="<?= base_url('account/logout') ?>">Logout</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </nav>
     <main class="main-wrapper">
       <?= $this->renderSection('content') ?>
@@ -180,7 +128,7 @@
   <?php } ?>
 
   <!-- GetButton.io widget -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
       (function () {
           var options = {
               whatsapp: "+62 819-2793-9290", // WhatsApp number
@@ -192,7 +140,7 @@
           s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
       })();
-  </script>
+  </script> -->
   <!-- /GetButton.io widget -->
 	
   <?php if(!empty($_js)){

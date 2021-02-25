@@ -225,10 +225,10 @@ class Home extends BaseController
 									<input type="hidden" name="service_id" value="'.$ser->service_id.'">
 									<input type="hidden" name="service_city" value="'.$wilayah.'">
 									<input type="hidden" name="service_price" value="'.$cost.'">
-									<button type="submit" class="btn button-book mx-auto">Book Now</button>
+									<button type="submit" class="btn button-book mx-auto">Pesan Sekarang</button>
 									</form>';
 								}else{
-									$render['result'] .= '<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</button>';
+									$render['result'] .= '<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Pesan Sekarang</button>';
 								}
 								
 						$render['result'] .= '
@@ -301,10 +301,18 @@ class Home extends BaseController
 						</div>
 						';
 						if($this->session->has('member_id')){
-									$render['result'] .= '<a class="btn button-book-mobile" href="/home/booking">Book Now</a>';
-								}else{
-									$render['result'] .= '<a class="btn button-book-mobile" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</a>';
-								}
+							$render['result'] .= '<form method="post" action="'.base_url().'/home/booking">
+							<input type="hidden" name="member_id" value="'.$this->session->get()['member_id'].'">
+							<input type="hidden" name="service_id" value="'.$ser->service_id.'">
+							<input type="hidden" name="service_city" value="'.$wilayah.'">
+							<input type="hidden" name="service_price" value="'.$cost.'">
+							<div class="wrapper-btn-mobile">
+								<button type="submit" class="btn button-book-mobile mx-auto">Pesan Sekarang</button>
+							</div>
+							</form>';
+						}else{
+							$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Pesan Sekarang</a>';
+						}
 					$render['result'] .= '	
 					  </div>
 					</div>

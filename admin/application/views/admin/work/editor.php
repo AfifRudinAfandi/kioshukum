@@ -2,7 +2,11 @@
 	<div class="col-sm-12">
 		<section class="panel">
 			<header class="panel-heading">
-				Add New Work
+				<?php if ($this->uri->segment(2) == 'edit') {
+                    echo 'Edit Work';
+                } else {
+                    echo 'Add New Work';
+                } ?>
 				<span class="tools pull-right">
 					<a href="javascript:;" class="fa fa-chevron-down"></a>
 					<a href="javascript:;" class="fa fa-times"></a>
@@ -34,21 +38,30 @@
 						</Div>
 					</div>
 					<div class="form-group">
-						<label for="text-input">work_title</label>
+						<label for="text-input">Title</label>
 						<input type="text" class="form-control" value="<?php echo $work_title; ?>" name="work_title" required>
 					</div>
 					<div class="form-group">
-						<label for="text-input">work_description</label>
-						<textarea class="form-control" name="work_description" required><?php echo $work_description; ?></textarea>
+						<label for="text-input">Description</label>
+						<textarea class="form-control" name="work_description" id="ckeditor" required><?php echo $work_description; ?></textarea>
 					</div>
 					<div class="form-group">
-						<label for="text-input">work_link</label>
+						<label for="text-input">Link</label>
 						<input type="text" class="form-control" value="<?php echo $work_link; ?>" name="work_link" required>
+					</div>
+					<div class="form-group">
+						<label for="text-input">Label Button</label>
+						<input type="text" class="form-control" value="<?php echo $work_label_button; ?>" name="work_label_button" required>
 					</div>
 					<div class="form-group">
 						<input type="hidden" value="<?php echo $id; ?>" name="id" />
 						<input type="hidden" value="<?php echo $editor_status; ?>" name="editor_status" />
-						<button type="submit" class="btn btn-primary">Add New Work</button>
+						<?php if ($this->uri->segment(2) == 'edit') { ?>
+                            <button type="submit" class="btn btn-primary">Update Work</button>
+                            <a href="<?php echo base_url('work/delete') . '/' . $id; ?>" class="btn btn-danger">Remove Work</a>
+                        <?php } else { ?>
+                            <button type="submit" class="btn btn-primary">Add New Work</button>
+                        <?php } ?>
 					</div>
 				</form>
 

@@ -18,6 +18,12 @@ class M_landing extends CI_Model
         return $this->db->query("SELECT * FROM tbl_lawyer_category $where;");
     }
 
+    function GetServiceCategory($where = '')
+    {
+        return $this->db->query("SELECT * FROM tbl_service_category $where;");
+    }
+
+
     function GetWorkCategory($where = '')
     {
         return $this->db->query("SELECT * FROM tbl_work_category $where;");

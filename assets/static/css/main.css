@@ -579,7 +579,8 @@ section.about-company.home .about-description{
 
 section.reason-belive.home{
     position: relative;
-    margin-bottom: -200px;
+    /*margin-bottom: -200px;*/
+    margin-bottom: 20px;
     z-index: 2;
 }
 section.reason-belive.home .wrapper-reason{
@@ -642,7 +643,7 @@ section.reason-belive.landing{
 }
 
 section.partnership.home{
-    padding-top: 288px;
+    /*padding-top: 288px;*/
     padding-bottom: 68px;
     background-color: #F8F8F8;
 }

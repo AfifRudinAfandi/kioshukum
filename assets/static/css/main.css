@@ -117,6 +117,10 @@
     align-items: flex-start;
     margin-bottom: 12px;
 }
+.main-nav .dropdown-menu{
+    left: -17px;
+    min-width: 5rem;
+}
 .icon-sub-menu{
     width: 32px;
 }
@@ -223,9 +227,9 @@
     font-weight: 900;
     color: rgba(45, 57, 88, 0.5);
     border: none;
-    font-size: 22px;
-    margin-left: 10px;
-    margin-top: -8px;
+    font-size: 15px;
+    margin-left: 6px;
+    margin-top: -6px;
 }
 
 
@@ -259,9 +263,9 @@
     font-weight: 900;
     color: rgba(45, 57, 88, 0.5);
     border: none;
-    font-size: 22px;
-    margin-left: 10px;
-    margin-top: -8px;
+    font-size: 15px;
+    margin-left: 6px;
+    margin-top: -6px;
 }
 /* Navbar-Section-End */
 

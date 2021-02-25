@@ -106,17 +106,17 @@
             </div>
             <div class="col-md-6">
                 <div class="left">
-                    <h1 class="title">Our Office</h1>
+                    <h1 class="title">Kantor Kami</h1>
                     <div class="col">
-                        <h5 class="sub-title">Kios Hukum.co.id</h5>
+                        <h5 class="sub-title">KiosHukum.id</h5>
                         <p class="direction">
-                            Jakarta - <a href="#">Direction Maps</a>
+                            Jakarta - <a href="https://goo.gl/maps/9kUshyWDikYzNF147">Direction Maps</a>
                         </p>
                         <p class="direction-detail">
-                            Jl Iskandarsyah Raya 7,Melawai Kebayoran Baru - Jakarta
+                            Jl. Damarsari No.35A RT 009 RW 007 Kel. Jatipadang Kec. Pasar Minggu Jakarta Selatan 12510
                         </p>
                     </div>
-                    <div class="col">
+                    <!-- <div class="col d-none">
                         <h5 class="sub-title">Office Bandung</h5>
                         <p class="direction">
                             Bandung - <a href="#">Direction Maps</a>
@@ -124,14 +124,14 @@
                         <p class="direction-detail">
                             Jl Watukencana 4, Bandung Jawa Barat
                         </p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="partnership contact-us">
+<section class="partnership contact-us d-none">
     <div class="container">
         <div class="row wrapper-partnership">
             <div class="col-md-4 mb-4">
@@ -150,7 +150,7 @@
     </div>
 </section>
 
-<section class="banner-ads">
+<section class="banner-ads d-none">
     <div class="container">
         <div class="wrapper-banner">
             <div class="left">

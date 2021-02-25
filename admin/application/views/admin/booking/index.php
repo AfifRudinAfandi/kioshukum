@@ -29,13 +29,25 @@
                             foreach ($data_booking as $row) { ?>
                                 <tr>
                                     <td><?= $row['booking_date'] ?></td>
-                                    <td><?= $row['booking_member_id'] ?></td>
-                                    <td><?= $row['booking_service_id'] ?></td>
+                                    <td><?= $row['member_first_name'] ?></td>
+                                    <td><?= $row['service_name'] ?></td>
                                     <td><?= $row['booking_city'] ?></td>
                                     <td><?= $row['booking_price'] ?></td>
                                     <td><?= $row['booking_status'] ?></td>
                                     <td>
                                         <a href="<?= base_url() ?>booking/view/<?= $row['booking_id'] ?>" title="Change" class="btn btn-warning btn-xs"><i class="fa fa-pencil-square-o fa-fw"></i> Change Status</a>
+										<div class="btn-group">
+											<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											Action <span class="caret"></span>
+											</button>
+											<ul class="dropdown-menu">
+												<li><a href="<?= base_url() ?>booking/setstatus/<?= $row['booking_id'] ?>/1">Selesai</a></li>
+												<li><a href="#">Another action</a></li>
+												<li><a href="#">Something else here</a></li>
+												<li role="separator" class="divider"></li>
+												<li><a href="#">Separated link</a></li>
+											</ul>
+										</div>
                                         <a href="<?= base_url() ?>booking/delete/<?= $row['booking_id'] ?>" title="Remove" class="btn btn-danger btn-xs" onClick="return confirm('Anda yakin akan Menghaspus data ini?..')">
                                             <i class="fa fa-trash-o"></i> Trash
                                         </a>

@@ -109,6 +109,13 @@
                                 LANDING
                             </a>
                         </li>
+						<li>
+                            <a href="<?php echo base_url(); ?>booking/index" <?php $id = $this->uri->segment(1);
+                                                                                if ($id == "booking") { ?> class="active" <?php } ?>>
+                                <i class="fa fa-book"></i>
+                                BOOKING
+                            </a>
+                        </li>
                         <li class="sub-menu dcjq-parent-li <?php if ($this->uri->segment(1) == "testimonial") {
                                                                 echo 'active';
                                                             } ?>">

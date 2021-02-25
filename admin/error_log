@@ -325,3 +325,69 @@ Stack trace:
 [25-Feb-2021 07:48:31 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/codekec2/kioshukum.codekece.id/admin/application/views/admin/landing/editor.php on line 4
 [25-Feb-2021 07:48:32 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/codekec2/kioshukum.codekece.id/admin/application/views/admin/landing/editor.php on line 4
 [25-Feb-2021 07:48:32 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'exit' (T_EXIT) in /home/codekec2/kioshukum.codekece.id/admin/application/views/admin/landing/editor.php on line 4
+[25-Feb-2021 09:15:48 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:15:49 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:16:33 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:16:37 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:16:46 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:17:25 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:18:43 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:18:45 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:18:57 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:19:01 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15
+[25-Feb-2021 09:19:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method Booking::session_on() in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php:15
+Stack trace:
+#0 /home/codekec2/kioshukum.codekece.id/admin/system/core/CodeIgniter.php(359): Booking->index()
+#1 /home/codekec2/kioshukum.codekece.id/admin/index.php(202): require_once('/home/codekec2/...')
+#2 {main}
+  thrown in /home/codekec2/kioshukum.codekece.id/admin/application/controllers/booking.php on line 15

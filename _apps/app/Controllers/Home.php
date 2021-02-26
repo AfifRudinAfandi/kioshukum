@@ -216,15 +216,15 @@ class Home extends BaseController
 							<td>'.$wilayah.'</td>
 							<td>IDR. ';
 							
-							if($wilayah == 'jabotabek'){
+							if($wilayah == 'Jabodetabek'){
 								$cost = $ser->service_jabotabek_cost;
 								$render['result'] .= number_format($ser->service_jabotabek_cost, 0, ',', '.');
 							}
-							if($wilayah == 'surabaya'){
+							if($wilayah == 'Jawa Barat & Jawa Tengah'){
 								$cost = $ser->service_surabaya_cost;
 								$render['result'] .=  number_format($ser->service_surabaya_cost, 0, ',', '.');
 							}
-							if($wilayah == 'other'){
+							if($wilayah == 'Lampung'){
 								$cost = $ser->service_other_cost;
 								$render['result'] .=  number_format($ser->service_other_cost, 0, ',', '.');
 							}
@@ -273,7 +273,7 @@ class Home extends BaseController
 							';
 								
 								$render['result'] .= '
-								<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Book Now</button>
+								<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Pesan Sekarang</button>
 								';
 								
 								/*
@@ -283,10 +283,10 @@ class Home extends BaseController
 									<input type="hidden" name="service_id" value="'.$ser->service_id.'">
 									<input type="hidden" name="service_city" value="'.$wilayah.'">
 									<input type="hidden" name="service_price" value="'.$cost.'">
-									<button type="submit" class="btn button-book mx-auto">Book Now</button>
+									<button type="submit" class="btn button-book mx-auto">Pesan Sekarang</button>
 									</form>';
 								}else{
-									$render['result'] .= '<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</button>';
+									$render['result'] .= '<button class="btn button-book mx-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Pesan Sekarang</button>';
 								}
 								*/
 						$render['result'] .= '
@@ -341,15 +341,15 @@ class Home extends BaseController
 						  <p class="table-header">Harga</p>
 						  <p class="table-title">';
 						  
-						  if($wilayah == 'jabotabek'){
+						if($wilayah == 'Jabodetabek'){
 							$cost = $ser->service_jabotabek_cost;
 							$render['result'] .= 'IDR. '.number_format($ser->service_jabotabek_cost, 0, ',', '.');
 						}
-						if($wilayah == 'surabaya'){
+						if($wilayah == 'Jawa Barat & Jawa Tengah'){
 							$cost = $ser->service_surabaya_cost;
 							$render['result'] .=  'IDR. '.number_format($ser->service_surabaya_cost, 0, ',', '.');
 						}
-						if($wilayah == 'other'){
+						if($wilayah == 'Lampung'){
 							$cost = $ser->service_other_cost;
 							$render['result'] .=  'IDR. '.number_format($ser->service_other_cost, 0, ',', '.');
 						}
@@ -397,7 +397,7 @@ class Home extends BaseController
 							</div>
 						</div>
 						';
-						$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Book Now</a>';
+						$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop'.$ser->service_id.'">Pesan Sekarang</a>';
 						/*
 						if($this->session->has('member_id')){
 							$render['result'] .= '<form method="post" action="'.base_url().'/home/booking">
@@ -406,11 +406,11 @@ class Home extends BaseController
 							<input type="hidden" name="service_city" value="'.$wilayah.'">
 							<input type="hidden" name="service_price" value="'.$cost.'">
 							<div class="wrapper-btn-mobile">
-								<button type="submit" class="btn button-book-mobile mx-auto">Book Now</button>
+								<button type="submit" class="btn button-book-mobile mx-auto">Pesan Sekarang</button>
 							</div>
 							</form>';
 						}else{
-							$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Book Now</a>';
+							$render['result'] .= '<a class="btn button-book-mobile mx-auto" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Pesan Sekarang</a>';
 						}
 						*/
 					$render['result'] .= '	

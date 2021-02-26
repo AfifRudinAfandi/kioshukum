@@ -135,7 +135,7 @@
         <div class="row">
           <div class="col-md-5">
             <h5 class="footer-title">kioshukum.id</h5>
-            <p class="footer-description">Kios Hukum berfokus untuk melindungi sisi hukum bisnis dari usaha kecil dan menengah (UKM) melalui platform digital</p>
+            <p class="footer-description">Kios Hukum hadir sebagai jawaban atas kebutuhan layanan bantuan hukum yang mudah, cepat dan professional.</p>
             <ul class="wrapper-social-link">
               <li class="social-link"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
               <li class="social-link"><a href="#"><i class="fab fa-twitter"></i></a></li>
@@ -143,7 +143,7 @@
               <li class="social-link"><a href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
-          <div class="col">
+          <div class="col d-none">
             <h5 class="footer-title">Services</h5>
             <ul class="footer-menu">
               <li><a href="#">Perizinan</a></li>
@@ -163,7 +163,7 @@
           </div>
           <div class="col">
             <h5 class="footer-title">Office</h5>
-            <p class="address">Jl Iskandarsyah Raya 7,Melawai Kebayoran Baru - Jakarta</p>
+            <p class="address">Jl. Damarsari No.35A RT 009 RW 007 Kel. Jatipadang Kec. Pasar Minggu Jakarta Selatan 12510</p>
           </div>
         </div>
       </div>

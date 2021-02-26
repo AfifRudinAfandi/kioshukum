@@ -216,15 +216,15 @@ class Home extends BaseController
 							<td>'.$wilayah.'</td>
 							<td>IDR. ';
 							
-							if($wilayah == 'jabotabek'){
+							if($wilayah == 'Jabodetabek'){
 								$cost = $ser->service_jabotabek_cost;
 								$render['result'] .= number_format($ser->service_jabotabek_cost, 0, ',', '.');
 							}
-							if($wilayah == 'surabaya'){
+							if($wilayah == 'Jawa Barat & Jawa Tengah'){
 								$cost = $ser->service_surabaya_cost;
 								$render['result'] .=  number_format($ser->service_surabaya_cost, 0, ',', '.');
 							}
-							if($wilayah == 'other'){
+							if($wilayah == 'Lampung'){
 								$cost = $ser->service_other_cost;
 								$render['result'] .=  number_format($ser->service_other_cost, 0, ',', '.');
 							}
@@ -341,15 +341,15 @@ class Home extends BaseController
 						  <p class="table-header">Harga</p>
 						  <p class="table-title">';
 						  
-						  if($wilayah == 'jabotabek'){
+						if($wilayah == 'Jabodetabek'){
 							$cost = $ser->service_jabotabek_cost;
 							$render['result'] .= 'IDR. '.number_format($ser->service_jabotabek_cost, 0, ',', '.');
 						}
-						if($wilayah == 'surabaya'){
+						if($wilayah == 'Jawa Barat & Jawa Tengah'){
 							$cost = $ser->service_surabaya_cost;
 							$render['result'] .=  'IDR. '.number_format($ser->service_surabaya_cost, 0, ',', '.');
 						}
-						if($wilayah == 'other'){
+						if($wilayah == 'Lampung'){
 							$cost = $ser->service_other_cost;
 							$render['result'] .=  'IDR. '.number_format($ser->service_other_cost, 0, ',', '.');
 						}

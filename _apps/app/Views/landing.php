@@ -154,9 +154,12 @@
                         <div class="item-pricing col">
                             <select name="wilayah" class="form-select" aria-label="Default select example" required>
                                 <option value="">-- Pilih Wilayah --</option>
-                                <option value="jabotabek">JABOTABEK</option>
-                                <option value="surabaya">SURABAYA</option>
-                                <option value="other">KOTA LAINNYA</option>
+                                <option value="Jabodetabek">Jabodetabek</option>
+                                <option value="Jawa Barat & Jawa Tengah">Jawa Barat & Jawa Tengah</option>
+                                <option value="Lampung">Lampung</option>
+                                <!-- <option value="SURABAYA">SURABAYA</option>
+                                <option value="KOTA LAINNYA">KOTA LAINNYA</option> -->
+
                             </select>
                         </div>
                         <div class="item-pricing col">

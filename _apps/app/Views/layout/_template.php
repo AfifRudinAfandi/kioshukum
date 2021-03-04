@@ -51,7 +51,7 @@
 <body>
     <nav class="navbar main-nav navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid ctf">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?= base_url() ?>">
           <img class="logo-brand" src="<?= $setting->web_logo ?>">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -171,6 +171,9 @@
         <p class="copy-right">©2020 Codekece. Studio</p>
       </div>
     </footer>
+    <a class="float-button" href="https://api.whatsapp.com/send?phone=62<?= $setting->web_sms ?>" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
   </main>
   
   <script src="<?= base_url() ?>/assets/static/js/jquery-3.2.1.min.js"></script>
@@ -180,7 +183,7 @@
   <?php } ?>
 
   <!-- GetButton.io widget -->
-  <script type="text/javascript">
+  <!--<script type="text/javascript">
       (function () {
           var options = {
               whatsapp: "+62 819-2793-9290", // WhatsApp number
@@ -192,7 +195,7 @@
           s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
           var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
       })();
-  </script>
+  </script>-->
   <!-- /GetButton.io widget -->
 	
   <?php if(!empty($_js)){

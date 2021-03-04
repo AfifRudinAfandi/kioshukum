@@ -1,6 +1,6 @@
 @media (max-width: 575.98px) {
     /* Navbar */
-    .main-nav .dropdown-multicol{
+    .main-nav .navbar-nav .dropdown-multicol{
         width: auto;
         padding: 14px 0px;
     }
@@ -47,14 +47,18 @@
     }
     section.home.service-menu ul .nav-link{
         min-height: max-content;
-        padding: 28px;
+        padding: 29px;
     }
     section.home.service-menu ul .nav-item{
-        flex: 0 0 50%;
+        flex: 0 0 32%;
+    }
+    section.home.service-menu ul .nav-item .nav-link span{
+        display: none;
     }
     section.home.service-menu ul .nav-link img{
         margin-bottom: 0;
-        width: 34px;
+        margin-right: 0;
+        width: 44px;
     }
 
     section.about-company.home {
@@ -473,6 +477,20 @@
     .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
         display: none;
     }
+
+    
+    section.syarat-ketentuan .lg-view-pane{
+        display: none;
+    }
+    section.syarat-ketentuan .sm-view-pane{
+        display: block;
+    }
+    section.header-sk{
+        padding: 58px 12px 48px 12px;
+    }
+    section.header-pp{
+        padding-bottom: 12px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -786,6 +804,16 @@
     .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
         display: none;
     }
+    
+    section.syarat-ketentuan .lg-view-pane{
+        display: none;
+    }
+    section.syarat-ketentuan .sm-view-pane{
+        display: block;
+    }
+    section.header-sk{
+        padding: 58px 12px 48px 12px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -917,6 +945,16 @@
     
     .dashboard-sub-nav .tab-content .payment .wrapper-left .payment-list .list-item .link-invoice span{
         display: none;
+    }
+    
+    section.syarat-ketentuan .lg-view-pane{
+        display: none;
+    }
+    section.syarat-ketentuan .sm-view-pane{
+        display: block;
+    }
+    section.header-sk{
+        padding: 58px 12px 48px 12px;
     }
 }
 

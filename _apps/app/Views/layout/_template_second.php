@@ -51,7 +51,7 @@
 <body>
     <nav class="navbar main-dashboard-nav navbar-expand-lg navbar-light bg-white fixed-top">
       <div class="container-fluid ctf">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="<?= base_url() ?>">
           <img class="logo-brand" src="<?= $setting->web_logo ?>">
         </a>
         <div class="d-flex dashboard-nav-right">

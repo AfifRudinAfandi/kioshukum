@@ -168,7 +168,7 @@
         <p class="copy-right">©2020 Codekece. Studio</p>
       </div>
     </footer>
-    <a class="float-button" href="https://api.whatsapp.com/send?phone=62<?= $setting->web_sms ?>" target="_blank">
+    <a class="float-button" href="https://api.whatsapp.com/send?phone=62<?= $setting->web_sms ?>&text=Hi KiosHukum.id" target="_blank">
       <i class="fab fa-whatsapp"></i>
     </a>
   </main>

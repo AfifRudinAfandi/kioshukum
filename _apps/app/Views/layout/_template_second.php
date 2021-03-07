@@ -91,22 +91,19 @@
               <li class="social-link"><a href="https://instagram.com/kioshukum"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
-          <div class="col d-none">
-            <h5 class="footer-title">Services</h5>
+          <div class="col">
+            <h5 class="footer-title">Layanan</h5>
             <ul class="footer-menu">
-              <li><a href="#">Perizinan</a></li>
-              <li><a href="#">Ketenagakerjaan</a></li>
+              <li><a href="#">Pendirian Badan</a></li>
               <li><a href="#">HAKI</a></li>
-              <li><a href="#">Probono</a></li>
-              <li><a href="#">Goverment Support</a></li>
+              <li><a href="#">Perjanjian</a></li>
+              <li><a href="#">Tenaga Kerja Asing</a></li>
             </ul>
           </div>
           <div class="col">
-            <h5 class="footer-title">About</h5>
+            <h5 class="footer-title">Tentang</h5>
             <ul class="footer-menu">
-              <li><a href="#">Legal And Terms</a></li>
-              <li><a href="#">Lawyers Team</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="<?= base_url('about/tnc') ?>">Syarat dan Ketentuan</a></li>
             </ul>
           </div>
           <div class="col">

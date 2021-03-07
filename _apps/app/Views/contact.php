@@ -37,7 +37,8 @@
                             <p class="item-description">information to know about our service and pricing.</p>
                         </div>
                         
-                        <a href="<?= base_url('frequently_ask_question') ?>" class="btn button-cs">go to FAQ Pages</a>
+                        <!-- <a href="<?= base_url('frequently_ask_question') ?>" class="btn button-cs">go to FAQ Pages</a> -->
+                        <a href="<?= base_url('about/tnc') ?>" class="btn button-cs">go to FAQ Pages</a>
                     </div>
                 </div>
             </div>

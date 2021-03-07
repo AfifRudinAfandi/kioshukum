@@ -65,11 +65,11 @@
                     </div>
                     <hr/>
 					<div class="form-group">
-						<label for="text-input">No. SMS Layanan</label>
+						<label for="text-input">No. SMS Layanan (+62)</label>
 						<input type="text" id="text-input" class="form-control" name="sms" value="<?php echo $setting[0]['web_sms']; ?>">
 					</div>
 					<div class="form-group">
-						<label for="text-input">No. Telfone Layanan </label>
+						<label for="text-input">No. Telfone Layanan (+62)</label>
 						<input type="text" id="text-input" class="form-control" name="telfone" value="<?php echo $setting[0]['web_telfone']; ?>">
 					</div>
 					<div class="form-group">

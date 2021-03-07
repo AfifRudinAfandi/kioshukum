@@ -21,7 +21,8 @@
                             <h5 class="item-title">Talk to Customer Care</h5>
                             <p class="item-description">free consutation with our friendly customer care.</p>
                         </div>
-                        <button class="btn button-cs">Contact Customer Care</button>
+                        <a class="btn button-cs" href="tel:+62<?= $setting->web_telfone ?>">Contact Customer Care</a>
+                        <!-- <button class="btn button-cs">Contact Customer Care</button> -->
                     </div>
                 </div>
             </div>

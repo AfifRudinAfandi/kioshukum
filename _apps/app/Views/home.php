@@ -40,7 +40,7 @@
         <ul class="row gx-2 gy-2">
             <?php foreach ($landing_shortcut_menu as $menu) { ?>
                 <li class="nav-item col">
-                    <a class="nav-link" href="<?= $menu->menu_link ?>">
+                    <a class="nav-link" href="<?= $menu->menu_link ?>" data-bs-toggle="tooltip" data-bs-placement="top" title="<?= $menu->menu_title ?>">
                         <img src="<?= $menu->menu_icon ?>"><span><?= $menu->menu_title ?></span>
                     </a>
                 </li>

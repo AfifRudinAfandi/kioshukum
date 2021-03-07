@@ -88,7 +88,7 @@
               <li class="social-link"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
               <li class="social-link"><a href="#"><i class="fab fa-twitter"></i></a></li>
               <li class="social-link"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="social-link"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li class="social-link"><a href="https://instagram.com/kioshukum"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
           <div class="col d-none">

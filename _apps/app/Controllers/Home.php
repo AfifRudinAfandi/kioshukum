@@ -61,10 +61,10 @@ class Home extends BaseController
 		
 		echo '
 		<script>
-		var whatsappMessage= "*Nama:* '.$_POST['nama'].'"+"\r\n"+"*HP:* '.$_POST['hp'].'"+"\r\n"+"*Booking Service:* '.$_POST['service_name'].'"+"\r\n"+"*Kota:* '.$_POST['service_city'].'"+"\r\n"+"*Harga:* '.$_POST['service_price'].'";
+		var whatsappMessage= "*Nama:* '.$_POST['nama'].'"+"\r\n"+"*HP:* '.$_POST['hp'].'"+"\r\n"+"*Pesan Layanan:* '.$_POST['service_name'].'"+"\r\n"+"*Kota:* '.$_POST['service_city'].'"+"\r\n"+"*Harga:* '.$_POST['service_price'].'";
 		whatsappMessage = window.encodeURIComponent(whatsappMessage)
 		
-		location.href = "https://wa.me/6281927939290?text="+whatsappMessage;
+		location.href = "https://wa.me/62'.$this->setting->getRow()->web_sms.'?text="+whatsappMessage;
 		
 		</script>
 		
@@ -240,7 +240,7 @@ class Home extends BaseController
 													
 													<div class="col-md-12">
 														<div class="form-login">
-															<h1 class="title">Booking order</h1>
+															<h1 class="title">Data Pemesan</h1>
 															<p>Isi form di bawah ini</p>
 															<form id="form" method="post" action="'.base_url().'/home/booking">
 																<input type="hidden" name="service_name" value="'.$ser->service_name.'">
@@ -260,7 +260,7 @@ class Home extends BaseController
 																	</div>
 																</div>
 																
-																<button class="btn btn-primary mb-4" type="submit">Booking Now</button>
+																<button class="btn btn-primary mb-4" type="submit">Pesan Sekarang</button>
 															</form>
 														</div>
 													</div>
@@ -366,7 +366,7 @@ class Home extends BaseController
 											
 											<div class="col-md-12">
 												<div class="form-login">
-													<h1 class="title">Booking order</h1>
+													<h1 class="title">Data Pemesan</h1>
 													
 													<form id="form" method="post">
 														<input type="hidden" name="service_name" value="'.$ser->service_name.'">
@@ -386,7 +386,7 @@ class Home extends BaseController
 															</div>
 														</div>
 														
-														<button class="btn btn-primary mb-4" type="submit">Booking Now</button>
+														<button class="btn btn-primary mb-4" type="submit">Pesan Sekarang</button>
 													</form>
 												</div>
 											</div>

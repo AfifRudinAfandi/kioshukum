@@ -4,11 +4,11 @@
 <section class="banner banner-contact">
     <div class="container">
         <p class="banner-lable">Kios Hukum.id</p>
-        <h1 class="banner-title">Better Service with Us</h1>
+        <h1 class="banner-title">Hubungi Kami</h1>
     </div>
 </section>
 
-<section class="customer-assistance">
+<section class="customer-assistance d-none">
     <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -51,7 +51,7 @@
         <div class="row gx-5">
             <div class="col-md-6">
                 <div class="right">
-                    <h1 class="title">Contact Us</h1>
+                    <h1 class="title">Kontak Kami</h1>
                    
 					<div id="messages"></div>
 					
@@ -101,7 +101,7 @@
 						
 						<div id="loader" style="display:none; margin-bottom: 20px;"><i class="fa fa-spinner fa-spin fa-fw"></i> Please wait...</div>
 						
-                        <button class="btn button-messages" type="submit">Send Massages</button>
+                        <button class="btn button-messages" type="submit">Kirim</button>
                     </form>
 
                 </div>

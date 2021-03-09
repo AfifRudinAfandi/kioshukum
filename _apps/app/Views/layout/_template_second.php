@@ -85,9 +85,9 @@
             <h5 class="footer-title">kioshukum.id</h5>
             <p class="footer-description">Kios Hukum hadir sebagai jawaban atas kebutuhan layanan bantuan hukum yang mudah, cepat dan professional.</p>
             <ul class="wrapper-social-link">
-              <li class="social-link"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-              <li class="social-link"><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li class="social-link"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="social-link"><a href="https://wa.me/6281927939290?text=Halo+KiosHukum.id%2C"><i class="fab fa-whatsapp"></i></a></li>
+              <!-- <li class="social-link"><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li class="social-link"><a href="#"><i class="fab fa-facebook-f"></i></a></li> -->
               <li class="social-link"><a href="https://instagram.com/kioshukum"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="copy-right">©2020 Codekece. Studio</p>
+        <p class="copy-right">©2020 KiosHukum.id</p>
       </div>
     </footer>
   </main>

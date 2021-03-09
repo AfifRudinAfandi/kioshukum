@@ -195,7 +195,7 @@ class Landing extends CI_Controller
                     'landing_slide'         => $landing_slide,
 
                     'landing_search'         => $landing_search,
-                    'landing_service_category'         => implode(",",$landing_service_category),
+                    'landing_service_category'  => ($landing_service_category!=null) ? implode(",",$landing_service_category) : '',
 
                     'landing_lawyers'         => $landing_lawyers,
                     'lawyers_list'         => $lawyers_list,
@@ -245,7 +245,7 @@ class Landing extends CI_Controller
                     'landing_slide'         => $landing_slide,
 
                     'landing_search'         => $landing_search,
-                    'landing_service_category'  => implode(",",$landing_service_category),
+                    'landing_service_category'  => ($landing_service_category!=null) ? implode(",",$landing_service_category) : '',
 
                     'landing_lawyers'         => $landing_lawyers,
                     'lawyers_list'         => $lawyers_list,

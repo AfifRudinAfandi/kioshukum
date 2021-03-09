@@ -633,7 +633,7 @@ section.reason-belive.home .reason-item-description{
     text-align: center;
     text-transform: capitalize;
     color: #FFFFFF;
-    opacity: 0.7;
+    /* opacity: 0.7; */
 }
 
 section.reason-belive.landing{
@@ -3192,7 +3192,7 @@ section.policy-privacy .wrapper-main-content {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: rgba(0, 0, 0, 0.7);
     max-width: 860px;
     width: 100%;

@@ -332,7 +332,7 @@ class Home extends BaseController
 					  data-bs-parent="#accordionPricing"
 					>
 					  <div class="accordion-body">
-						<a class="link-pernyataan" href="#">download Peryaratan</a>
+						<!-- <a class="link-pernyataan" href="#">download Peryaratan</a> -->
 						<div class="wrapper-table-content">
 						  <p class="table-header">Wilayah</p>
 						  <p class="table-title">'.$wilayah.'</p>

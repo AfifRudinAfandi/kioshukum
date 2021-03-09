@@ -58,27 +58,27 @@
                     <form id="form" method="post">
                         <div class="row wrapper-form-control">
                             <div class="col">
-                                <label for="first-name" class="form-label">First Name</label>
-                                <input type="text" class="form-control" placeholder="First name" id="first-name" name="inquiry_name1" value="" required/>
+                                <label for="first-name" class="form-label">Nama depan</label>
+                                <input type="text" class="form-control" placeholder="Nama depan" id="first-name" name="inquiry_name1" value="" required/>
                             </div>
                             <div class="col">
-                                <label for="last-name" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" placeholder="Last name" id="last-name" name="inquiry_name2" value="" required/>
+                                <label for="last-name" class="form-label">Nama belakang</label>
+                                <input type="text" class="form-control" placeholder="Nama belakang" id="last-name" name="inquiry_name2" value="" required/>
                             </div>
                         </div>
                         <div class="row wrapper-form-control">
                             <div class="col">
-                                <label for="email" class="form-label">Email Address</label>
+                                <label for="email" class="form-label">Alamat email</label>
                                 <input type="email" class="form-control" placeholder="mail@gmail.com" id="email" name="inquiry_email" value="" required />
                             </div>
                             <div class="col">
-                                <label for="phone" class="form-label">Phone</label>
+                                <label for="phone" class="form-label">Nomor telepon</label>
                                 <input type="tel" class="form-control" placeholder="+62" id="phone" name="inquiry_phone" value="" required />
                             </div>
                         </div>
 
                         <div class="wrapper-form-control">
-                            <label class="form-label mb-3">What offer that you want to convey?</label>
+                            <label class="form-label mb-3">Layanan yang dibutuhkan dari kami?</label>
                             <div class="wrapper">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="inquiry_type" id="inlineRadio1" value="Pendirian Usaha" required>
@@ -95,11 +95,11 @@
                             </div>
                         </div>
                         <div class="wrapper-form-control">
-                            <label for="massages" class="form-label">Messages</label>
-                            <textarea class="form-control" id="massages" placeholder="Write your messages" rows="3" name="inquiry_message" required></textarea>
+                            <label for="massages" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="massages" placeholder="Tulis pesan atau komentar lainnya" rows="3" name="inquiry_message" required></textarea>
                         </div>
 						
-						<div id="loader" style="display:none; margin-bottom: 20px;"><i class="fa fa-spinner fa-spin fa-fw"></i> Please wait...</div>
+						<div id="loader" style="display:none; margin-bottom: 20px;"><i class="fa fa-spinner fa-spin fa-fw"></i> Mohon menunggu...</div>
 						
                         <button class="btn button-messages" type="submit">Kirim</button>
                     </form>

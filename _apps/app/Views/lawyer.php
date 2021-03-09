@@ -29,9 +29,7 @@
         <div class="row profile-identity">
             <div class="col-md-3">
             <h5 class="head-profile-identity">Pengalaman</h5>
-            <ul>
-                <li class="list-identity"><?= $lawyer[0]['lawyer_experien'] ?></li>
-            </ul>
+            <?= $lawyer[0]['lawyer_experien'] ?>
             </div>
             <div class="col-md-3">
                 <h5 class="head-profile-identity">Pendidikan</h5>
@@ -60,7 +58,7 @@
                 <img class="profile-team" src="<?= $ol->lawyer_avatar ?>" />
                 <p class="profile-name"><?= $ol->lawyer_name ?></p>
                 <p class="profile-experience">
-                    <i class="fas fa-check-circle"></i><?= $ol->lawyer_experien ?>
+                    <?= $ol->lawyer_experien ?>
                 </p>
                 <p class="lable-lawyers"><?= $ol->lawyer_category_name ?></p>
                 </a>

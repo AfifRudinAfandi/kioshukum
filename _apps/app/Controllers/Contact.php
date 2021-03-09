@@ -20,55 +20,71 @@ class Contact extends BaseController
 	{
 		$homeModel = new HomeModel();
         $render = [
-        	'setting'						=> $this->setting->getRow(),
-            'blog_title'		=> 'Kios Hukum',
+        	'setting'					=> $this->setting->getRow(),
+            'blog_title'				=> 'Kios Hukum',
             'landing_partner_data'      => $homeModel->getPartner()->getResultArray(),
+            'office_data'      			=> $homeModel->getOffice()->getResultArray(),
         ];
 
 		$render['_js'] = "
-		<script>
-			$('#form').submit(function(e) {
-				$('#messages').removeClass('alert alert-danger').hide();
-				$('#loader').show();
-			
-				var form = $(this);
-				var formdata = false;
-				if(window.FormData){
-					formdata = new FormData(form[0]);
-				}
+<script>
+tinymce.init({
+  selector: 'textarea#basic',
+  height: 300,
+  menubar: false,
+  plugins: [
+    'advlist autolink',
+    'insertdatetime media table paste code help wordcount'
+  ],
+  toolbar: 'undo redo ' +
+  'bold italic | alignleft aligncenter ' +
+  'alignright alignjustify | bullist numlist outdent indent | ' +
+  ' | help',
+  content_style: 'body { font-family:Helvetica,Arial,sans-serif; font-size:14px }'
+});
 
-				var formAction = form.attr('action');
-				$.ajax({
-					type        : 'POST',
-					url         : '".base_url()."/contact/send',
-					cache       : false,
-					data        : formdata ? formdata : form.serialize(),
-					contentType : false,
-					processData : false,
-					dataType	: 'json',
-			
-					success: function(response) {
-						if(response.type == 'success') {
-							setTimeout(function(){ 
-								$('#loader').hide();
-								$('#messages').show();
-								$('#messages').addClass('alert alert-success').text(response.message);
-								
-							}, 3000);
-						} else {
-							setTimeout(function(){ 
-								$('#loader').hide();
-								$('#messages').show();
-								$('#messages').addClass('alert alert-danger').text(response.message);
-							}, 3000);
-							
-						}
-					}
-				});
+$('#form').submit(function(e) {
+	$('#messages').removeClass('alert alert-danger').hide();
+	$('#loader').show();
+
+	var form = $(this);
+	var formdata = false;
+	if(window.FormData){
+		formdata = new FormData(form[0]);
+	}
+
+	var formAction = form.attr('action');
+	$.ajax({
+		type        : 'POST',
+		url         : '".base_url()."/contact/send',
+		cache       : false,
+		data        : formdata ? formdata : form.serialize(),
+		contentType : false,
+		processData : false,
+		dataType	: 'json',
+
+		success: function(response) {
+			if(response.type == 'success') {
+				setTimeout(function(){ 
+					$('#loader').hide();
+					$('#messages').show();
+					$('#messages').addClass('alert alert-success').text(response.message);
+					
+				}, 3000);
+			} else {
+				setTimeout(function(){ 
+					$('#loader').hide();
+					$('#messages').show();
+					$('#messages').addClass('alert alert-danger').text(response.message);
+				}, 3000);
 				
-				e.preventDefault();
-			});
-		</script>
+			}
+		}
+	});
+	
+	e.preventDefault();
+});
+</script>
 		";
 
 		echo view('contact', $render);

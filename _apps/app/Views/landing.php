@@ -218,7 +218,7 @@
                 <a class="lawyers-item" href="<?=base_url()?>/lawyer/<?= $lawyer->lawyer_slug ?>">
                 <img class="profile-team" src="<?= $lawyer->lawyer_avatar ?>">
                 <p class="profile-name"><?= $lawyer->lawyer_name ?></p>
-                <p class="profile-experience"><i class="fas fa-check-circle"></i><?= $lawyer->lawyer_experien ?></p>
+                <p class="profile-experience"><?= $lawyer->lawyer_experien ?></p>
                 <p class="lable-lawyers"><?= $lawyer->lawyer_category_name ?></p>
                 </a>
             </div>

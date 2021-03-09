@@ -137,10 +137,10 @@
             <h5 class="footer-title">kioshukum.id</h5>
             <p class="footer-description">Kios Hukum hadir sebagai jawaban atas kebutuhan layanan bantuan hukum yang mudah, cepat dan professional.</p>
             <ul class="wrapper-social-link">
-              <li class="social-link"><a href="#"><i class="fab fa-whatsapp"></i></a></li>
-              <li class="social-link"><a href="#"><i class="fab fa-twitter"></i></a></li>
-              <li class="social-link"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="social-link"><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li class="social-link"><a href="<?= $setting->web_wa ?>"><i class="fab fa-whatsapp"></i></a></li>
+              <li class="social-link"><a href="<?= $setting->web_twitter ?>"><i class="fab fa-twitter"></i></a></li>
+              <li class="social-link"><a href="<?= $setting->web_facebook ?>"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="social-link"><a href="<?= $setting->web_ig ?>"><i class="fab fa-instagram"></i></a></li>
             </ul>
           </div>
           <div class="col d-none">
@@ -168,7 +168,7 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p class="copy-right">©2020 Codekece. Studio</p>
+        <p class="copy-right"><?php echo $setting->footer; ?></p>
       </div>
     </footer>
     <a class="float-button" href="https://api.whatsapp.com/send?phone=62<?= $setting->web_sms ?>" target="_blank">
@@ -177,6 +177,7 @@
   </main>
   
   <script src="<?= base_url() ?>/assets/static/js/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.tiny.cloud/1/qagffr3pkuv17a8on1afax661irst1hbr4e6tbv888sz91jc/tinymce/5/tinymce.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <?php if(!empty(@$landing_slide)){ ?>
   <script src="<?= base_url() ?>/assets/static/js/slider.js"></script>

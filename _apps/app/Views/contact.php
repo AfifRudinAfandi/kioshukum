@@ -95,7 +95,7 @@
                         </div>
                         <div class="wrapper-form-control">
                             <label for="massages" class="form-label">Messages</label>
-                            <textarea class="form-control" id="massages" placeholder="Write your messages" rows="3" name="inquiry_message" required></textarea>
+                            <textarea class="form-control" placeholder="Write your messages" id="basic" name="inquiry_message" required></textarea>
                         </div>
 						
 						<div id="loader" style="display:none; margin-bottom: 20px;"><i class="fa fa-spinner fa-spin fa-fw"></i> Please wait...</div>
@@ -108,15 +108,19 @@
             <div class="col-md-6">
                 <div class="left">
                     <h1 class="title">Kantor Kami</h1>
+                    <?php foreach ($office_data as $key => $value) { ?>
                     <div class="col">
-                        <h5 class="sub-title">KiosHukum.id</h5>
+                        <h5 class="sub-title"><?= $value['office_title'] ?></h5>
                         <p class="direction">
-                            Jakarta - <a href="https://goo.gl/maps/9kUshyWDikYzNF147">Direction Maps</a>
+                            <?= $value['office_city'] ?> - <a href="<?= $value['office_direct_map'] ?>">Direction Maps</a>
                         </p>
                         <p class="direction-detail">
-                            Jl. Damarsari No.35A RT 009 RW 007 Kel. Jatipadang Kec. Pasar Minggu Jakarta Selatan 12510
+                            <?= $value['office_address'] ?>
                         </p>
                     </div>
+
+                    
+                    <?php } ?>
                     <!-- <div class="col d-none">
                         <h5 class="sub-title">Office Bandung</h5>
                         <p class="direction">

@@ -40,6 +40,11 @@ class HomeModel extends Model
     {
         return $this->db->query("SELECT * FROM tbl_partner $condition");
     }
+
+    function getOffice($condition = '')
+    {
+        return $this->db->query("SELECT * FROM tbl_office $condition");
+    }
 	
 	
 	//REGISTER -> CEK EMAIL

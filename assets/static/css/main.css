@@ -979,6 +979,28 @@ section.our-lawyers .lawyers-item .profile-experience i{
     color: #9CCE7D;
     font-size: 16px;
 }
+section.our-lawyers .lawyers-item ul{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    list-style: none;
+}
+section.our-lawyers .lawyers-item ul li::before{
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: -1.7em;
+    width: 1.7em;
+    color: #9CCE7D;
+}
+section.our-lawyers .lawyers-item ul li{
+    margin-bottom: 8px;
+}
 section.our-lawyers .lawyers-item .lable-lawyers{
     position: absolute;
     top: 22px;
@@ -995,7 +1017,6 @@ section.our-lawyers .lawyers-item .lable-lawyers{
     border-radius: 0px 80px 80px 0px;
     margin-bottom: 0;
 }
-
 /* DETAIL LAWYERS PAGE */
 
 section.banner-lawyers-detail{
@@ -1010,8 +1031,7 @@ section.banner-lawyers-detail{
 section.banner-lawyers-detail .wrapper-banner-detail, .wrapper-experiance{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
+    align-items: flex-start;
 }
 section.banner-lawyers-detail .banner-profile{
     width: 132px;
@@ -1034,6 +1054,8 @@ section.banner-lawyers-detail .banner-description{
     text-transform: capitalize;
     color: #FFFFFF;
     margin-bottom: 0;
+    white-space: nowrap;
+
 }
 section.banner-lawyers-detail .wrapper-banner-description{
     margin-left: 28px;
@@ -1151,7 +1173,7 @@ section.profile-services .profile-identity ul {
 }
 section.profile-services .profile-identity li {
     padding-left: 1.7em;
-    margin-bottom: 14px;
+    margin-bottom: 11px;
 }
 section.profile-services .profile-identity li:before {
     content: "\f058";
@@ -1163,7 +1185,6 @@ section.profile-services .profile-identity li:before {
     width: 1.7em;
     color: #9CCE7D;
 }
-
 
 section.other-lawyers{
     padding-top: 89px;
@@ -1219,6 +1240,9 @@ section.other-lawyers .lawyers-item .profile-experience{
     text-align: center;
     color: #000000;
 }
+section.other-lawyers .lawyers-item p:empty{
+    display: none;
+}
 section.other-lawyers .lawyers-item .profile-experience i{
     margin-right: 10px;
     color: #9CCE7D;
@@ -1240,8 +1264,65 @@ section.other-lawyers .lawyers-item .lable-lawyers{
     border-radius: 0px 80px 80px 0px;
     margin-bottom: 0;
 }
+section.other-lawyers .lawyers-item ul{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    list-style: none;
+}
+section.other-lawyers .lawyers-item ul li{
+    margin-bottom: 8px;
+}
+section.other-lawyers .lawyers-item ul li:before {
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: -2.3em;
+    width: 1.7em;
+    color: #9CCE7D;
+    margin-right: 5px;
+}
+section.other-lawyers .lawyers-item .profile-experience::before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f058";
+    font-weight: 900;
+    margin-right: 10px;
+    color: #9CCE7D;
+    font-size: 16px;
+}
 
+.wrapper-experiance ul{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+}
+section.banner-lawyers-detail .wrapper-banner-detail, .wrapper-experiance ul li{
+    margin-right: 38px;
+}
 
+.wrapper-experiance ul li::before{
+    content: "\f058";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 14px;
+    display: inline-block;
+    margin-left: -1.7em;
+    width: 1.7em;
+    color: #9CCE7D;
+}
 /* CONTACT PAGE */
 
 section.banner-contact{
@@ -3239,3 +3320,4 @@ section.header-pp{
 .float-button i{
     font-size: 30px
 }
+

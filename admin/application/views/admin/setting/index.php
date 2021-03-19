@@ -77,11 +77,19 @@
 						<input type="text" id="text-input" class="form-control" name="email" value="<?php echo $setting[0]['web_email']; ?>">
 					</div>
 					<div class="form-group">
+						<label for="text-input">Wa Url </label>
+						<input type="text" id="text-input" class="form-control" name="web_wa" value="<?php echo $setting[0]['web_wa']; ?>">
+					</div>
+					<div class="form-group">
+						<label for="text-input">Instageam Url</label>
+						<input type="text" id="text-input" class="form-control" name="web_ig" value="<?php echo $setting[0]['web_ig']; ?>">
+					</div>
+					<div class="form-group">
 						<label for="text-input">Facebook Url </label>
 						<input type="text" id="text-input" class="form-control" name="web_facebook" value="<?php echo $setting[0]['web_facebook']; ?>">
 					</div>
 					<div class="form-group">
-						<label for="text-input">Twitter Username</label>
+						<label for="text-input">Twitter Url</label>
 						<input type="text" id="text-input" class="form-control" name="web_twitter" value="<?php echo $setting[0]['web_twitter']; ?>">
 					</div>
 					<div class="form-group">

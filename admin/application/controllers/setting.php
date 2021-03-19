@@ -38,6 +38,9 @@ class Setting extends CI_Controller
 			$telfone	= $_POST['telfone'];
 			$email	= $_POST['email'];
 
+
+			$web_wa	= $_POST['web_wa'];
+			$web_ig	= $_POST['web_ig'];
 			$web_facebook	= $_POST['web_facebook'];
 			$web_twitter	= $_POST['web_twitter'];
 			$web_youtube	= $_POST['web_youtube'];
@@ -62,6 +65,8 @@ class Setting extends CI_Controller
 				'web_telfone' => $telfone,
 				'web_email' => $email,
 
+				'web_wa' => $web_wa,
+				'web_ig' => $web_ig,
 				'web_facebook' => $web_facebook,
 				'web_twitter' => $web_twitter,
 				'web_youtube' => $web_youtube,

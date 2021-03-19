@@ -2,7 +2,7 @@
 	<div class="col-md-12">
 		<section class="panel">
 			<header class="panel-heading">
-				<a href="<?php echo base_url('service/new'); ?>" class="btn btn-sm btn-primary">Add New Slide</a>
+				<a href="<?php echo base_url('service/new'); ?>" class="btn btn-sm btn-primary">Add New Service</a>
 				<span class="tools pull-right">
 					<a href="javascript:;" class="fa fa-chevron-down"></a>
 					<a href="javascript:;" class="fa fa-cog"></a>

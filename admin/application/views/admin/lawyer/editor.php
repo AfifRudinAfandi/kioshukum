@@ -47,7 +47,7 @@
 					</div>
 					<div class="form-group">
 						<label for="text-input">lawyer_experien</label>
-						<input type="text" class="form-control" value="<?php echo $lawyer_experien; ?>" name="lawyer_experien" required>
+						<textarea class="form-control" name="lawyer_experien" required><?php echo $lawyer_experien; ?></textarea>
 					</div>
 					<div class="form-group">
 						<label for="text-input">lawyer_study</label>

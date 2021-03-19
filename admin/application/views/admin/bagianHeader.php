@@ -223,7 +223,13 @@
                                 <li <?php if ($this->uri->segment(1) == "service" && $this->uri->segment(2) == "category") { ?> class="active" <?php } ?>><a href="<?php echo base_url('service/category'); ?>"><i class="fa fa-circle"></i> CATEGORY SERVICE</a></li>
                             </ul>
                         </li>
-						
+						<li>
+                            <a href="<?php echo base_url(); ?>office/index" <?php $id = $this->uri->segment(1);
+                                                                                if ($id == "office") { ?> class="active" <?php } ?>>
+                                <i class="fa fa-home"></i>
+                                OFFICES
+                            </a>
+                        </li>
                         <li>
                             <a href="<?php echo base_url(); ?>member/index" <?php $id = $this->uri->segment(1);
                                                                                 if ($id == "member") { ?> class="active" <?php } ?>>

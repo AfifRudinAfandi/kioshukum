@@ -6,13 +6,19 @@ class M_service extends CI_Model
     function GetService($where = '')
     {
         return $this->db->query("SELECT * FROM  tbl_service 
-            JOIN tbl_service_category ON tbl_service_category.category_id = tbl_service.service_category_id
+            LEFT JOIN tbl_service_category ON tbl_service_category.category_id = tbl_service.service_category_id
+            LEFT JOIN tbl_service_city ON tbl_service_city.city_id = tbl_service.service_city_id
             $where;");
     }
 
     function GetServiceCategory($where = '')
     {
         return $this->db->query("SELECT * FROM  tbl_service_category  $where;");
+    }
+
+    function GetServiceCity($where = '')
+    {
+        return $this->db->query("SELECT * FROM  tbl_service_city  $where;");
     }
 
     function GetSetting($where = '')

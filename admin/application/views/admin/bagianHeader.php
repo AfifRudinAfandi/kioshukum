@@ -109,7 +109,7 @@
                                 LANDING
                             </a>
                         </li>
-						<li>
+                        <li>
                             <a href="<?php echo base_url(); ?>booking/index" <?php $id = $this->uri->segment(1);
                                                                                 if ($id == "booking") { ?> class="active" <?php } ?>>
                                 <i class="fa fa-book"></i>
@@ -208,8 +208,8 @@
                                 <li <?php if ($this->uri->segment(1) == "slide" && $this->uri->segment(2) == "category") { ?> class="active" <?php } ?>><a href="<?php echo base_url('slide/category'); ?>"><i class="fa fa-circle"></i> CATEGORY SLIDE</a></li>
                             </ul>
                         </li>
-						
-						<li class="sub-menu dcjq-parent-li <?php if ($this->uri->segment(1) == "service") {
+
+                        <li class="sub-menu dcjq-parent-li <?php if ($this->uri->segment(1) == "service") {
                                                                 echo 'active';
                                                             } ?>">
                             <a href="javascript:;" class="<?php if ($this->uri->segment(1) == "service") {
@@ -221,18 +221,19 @@
                             <ul class="sub">
                                 <li <?php if ($this->uri->segment(1) == "service" && $this->uri->segment(2) == NULL) { ?> class="active" <?php } ?>><a href="<?php echo base_url('service'); ?>"><i class="fa fa-circle"></i> SERVICE</a></li>
                                 <li <?php if ($this->uri->segment(1) == "service" && $this->uri->segment(2) == "category") { ?> class="active" <?php } ?>><a href="<?php echo base_url('service/category'); ?>"><i class="fa fa-circle"></i> CATEGORY SERVICE</a></li>
+                                <li <?php if ($this->uri->segment(1) == "service" && $this->uri->segment(2) == "city") { ?> class="active" <?php } ?>><a href="<?php echo base_url('service/city'); ?>"><i class="fa fa-circle"></i> CITY</a></li>
                             </ul>
                         </li>
-						<li>
+                        <li>
                             <a href="<?php echo base_url(); ?>office/index" <?php $id = $this->uri->segment(1);
-                                                                                if ($id == "office") { ?> class="active" <?php } ?>>
+                                                                            if ($id == "office") { ?> class="active" <?php } ?>>
                                 <i class="fa fa-home"></i>
                                 OFFICES
                             </a>
                         </li>
                         <li>
                             <a href="<?php echo base_url(); ?>member/index" <?php $id = $this->uri->segment(1);
-                                                                                if ($id == "member") { ?> class="active" <?php } ?>>
+                                                                            if ($id == "member") { ?> class="active" <?php } ?>>
                                 <i class="fa fa-users"></i>
                                 MEMBER
                             </a>

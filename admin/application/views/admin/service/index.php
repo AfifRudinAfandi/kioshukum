@@ -18,10 +18,9 @@
 								<th>Service Name</th>
 								<th>Category</th>
 								<th>Description</th>
+								<th>City</th>
 								<th>Our Cost</th>
-								<th>Jabotabek Cost</th>
-								<th>Surabaya Cost</th>
-								<th>Other City Cost</th>
+								<th>Cost</th>
 								<th>Note</th>
 							</tr>
 						</thead>
@@ -33,24 +32,23 @@
 							?>
 									<tr>
 										<td>
-											<?=$row['service_name']?>
-											
+											<?= $row['service_name'] ?>
+
 											<p style="margin-top: 10px">
-											<a href="<?= base_url('service/edit') ?>/<?= $row['service_id'] ?>" title="Change (<?= $row['service_name'] ?>)" class="btn btn-warning btn-xs  btn-action">
-												<i class="fa fa-pencil-square-o fa-fw"></i> Change
-											</a>
-											<a href="<?= base_url('service/delete') ?>/<?= $row['service_id'] ?>" title="Delete (<?= $row['service_name'] ?>)" class="btn btn-danger btn-xs  btn-action" onClick="return confirm('Are you sure ?..')">
-												<i class="fa fa-trash-o"></i> Trash
-											</a>
+												<a href="<?= base_url('service/edit') ?>/<?= $row['service_id'] ?>" title="Change (<?= $row['service_name'] ?>)" class="btn btn-warning btn-xs  btn-action">
+													<i class="fa fa-pencil-square-o fa-fw"></i> Change
+												</a>
+												<a href="<?= base_url('service/delete') ?>/<?= $row['service_id'] ?>" title="Delete (<?= $row['service_name'] ?>)" class="btn btn-danger btn-xs  btn-action" onClick="return confirm('Are you sure ?..')">
+													<i class="fa fa-trash-o"></i> Trash
+												</a>
 											</p>
 										</td>
-										<td><?=$row['category_name']?></td>
-										<td><?=$row['service_description']?></td>
-										<td><?='Rp. '.number_format($row['service_our_cost'], 0, ',', '.')?></td>
-										<td><?='Rp. '.number_format($row['service_jabotabek_cost'], 0, ',', '.')?></td>
-										<td><?='Rp. '.number_format($row['service_surabaya_cost'], 0, ',', '.')?></td>
-										<td><?='Rp. '.number_format($row['service_other_cost'], 0, ',', '.')?></td>
-										<td><?=$row['service_note']?></td>
+										<td><?= $row['category_name'] ?></td>
+										<td><?= $row['service_description'] ?></td>
+										<td><?= $row['city_name'] ?></td>
+										<td><?= 'Rp. ' . number_format($row['service_our_cost'], 0, ',', '.') ?></td>
+										<td><?= 'Rp. ' . number_format($row['service_cost'], 0, ',', '.') ?></td>
+										<td><?= $row['service_note'] ?></td>
 									</tr>
 							<?php
 								}

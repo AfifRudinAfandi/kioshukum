@@ -1,4 +1,6 @@
-<?php namespace App\Models;
+<?php
+
+namespace App\Models;
 
 use CodeIgniter\Model;
 
@@ -45,55 +47,59 @@ class HomeModel extends Model
     {
         return $this->db->query("SELECT * FROM tbl_office $condition");
     }
-	
-	
-	//REGISTER -> CEK EMAIL
-	function getEmail($email)
+
+
+    //REGISTER -> CEK EMAIL
+    function getEmail($email)
     {
         return $this->db->table('tbl_member')->where('member_email', $email)->countAllResults();
     }
-	
-	//REGISTER -> INSERT
-	function insertMember($data)
+
+    //REGISTER -> INSERT
+    function insertMember($data)
     {
         return $this->db->table('tbl_member')->insert($data);
     }
-	
-	//LOGIN GET USER
-	function cekLogin($email)
+
+    //LOGIN GET USER
+    function cekLogin($email)
     {
         return $this->db->table('tbl_member')
-                        ->where('member_email', $email)
-                        ->get()
-                        ->getRow();
+            ->where('member_email', $email)
+            ->get()
+            ->getRow();
     }
-	
-	//CONTACT -> SEND
-	function insertInquiry($data)
+
+    //CONTACT -> SEND
+    function insertInquiry($data)
     {
         return $this->db->table('tbl_inquiry')->insert($data);
     }
-	
-	
-	//SERVICE CATEGORY
-	function getServiceCategory($condition = '')
+
+
+    //SERVICE CATEGORY
+    function getServiceCategory($condition = '')
     {
         return $this->db->query("SELECT * FROM tbl_service_category $condition");
     }
-	
-	function getService($condition = '')
+
+    function getServiceCity($condition = '')
+    {
+        return $this->db->query("SELECT * FROM tbl_service_city $condition");
+    }
+
+    function getService($condition = '')
     {
         return $this->db->query("SELECT * FROM tbl_service $condition");
     }
-	
-	function getMember($id)
+
+    function getMember($id)
     {
         return $this->db->table('tbl_member')->where('member_id', $id)->get()->getRow();
     }
-	
-	function insertBooking($data)
-	{
-		return $this->db->table('tbl_booking')->insert($data);
-	}
 
+    function insertBooking($data)
+    {
+        return $this->db->table('tbl_booking')->insert($data);
+    }
 }

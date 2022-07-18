@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
+$db['default']['hostname'] = 'codekece.id';
 $db['default']['username'] = 'codekec2_apip';
 $db['default']['password'] = 'afifrudin@99';
 $db['default']['database'] = 'codekec2_kioshukum';

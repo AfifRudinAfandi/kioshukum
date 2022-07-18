@@ -49,8 +49,8 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'codekec2_kioshukum';
-$db['default']['password'] = 'kioshukum123';
+$db['default']['username'] = 'codekec2_apip';
+$db['default']['password'] = 'afifrudin@99';
 $db['default']['database'] = 'codekec2_kioshukum';
 $db['default']['dbdriver'] = 'mysqli';
 $db['default']['dbprefix'] = '';
